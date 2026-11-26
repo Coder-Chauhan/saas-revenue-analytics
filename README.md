@@ -10,6 +10,23 @@ provides documented KPI definitions, automated data-quality monitoring, Power BI
 > seed so results are reproducible. It is not real customer or financial data. Realistic data-quality
 > issues (duplicates, bad currency codes, negative amounts, orphan events) are injected on purpose.
 
+## Dashboard
+
+Power BI report built on the dbt star schema (`reports/saas_analytics.pbix`). All 22 DAX measures
+are in [docs/powerbi_measures.tmdl](docs/powerbi_measures.tmdl) and can be applied in one step from Power BI's TMDL view.
+
+**Executive Summary:** ARR, MRR, active customers, net revenue retention and logo churn, with the MRR trend and monthly MRR movements.
+![Executive Summary](docs/images/executive_summary.png)
+
+**Revenue Operations:** MRR by segment and region, top customers, churn by industry and logo churn trend.
+![Revenue Operations](docs/images/revenue_operations.png)
+
+**Product Usage:** monthly active users, active account rate, DAU/MAU stickiness and feature adoption.
+![Product Usage](docs/images/product_usage.png)
+
+**Data Quality:** records quarantined by validation, by reason.
+![Data Quality](docs/images/data_quality.png)
+
 ## What it covers
 
 | Area | Implementation |

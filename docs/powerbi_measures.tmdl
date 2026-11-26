@@ -1,0 +1,69 @@
+createOrReplace
+
+	ref table _Measures
+
+		measure MRR = SUM ( fct_mrr_monthly[mrr_usd] )
+			formatString: \$#,0
+
+		measure ARR = [MRR] * 12
+			formatString: \$#,0
+
+		measure 'Starting MRR' = SUM ( fct_mrr_monthly[prev_mrr_usd] )
+			formatString: \$#,0
+
+		measure 'New MRR' = SUM ( fct_mrr_monthly[new_mrr_usd] )
+			formatString: \$#,0
+
+		measure 'Expansion MRR' = SUM ( fct_mrr_monthly[expansion_mrr_usd] )
+			formatString: \$#,0
+
+		measure 'Contraction MRR' = SUM ( fct_mrr_monthly[contraction_mrr_usd] )
+			formatString: \$#,0
+
+		measure 'Churned MRR' = SUM ( fct_mrr_monthly[churned_mrr_usd] )
+			formatString: \$#,0
+
+		measure 'Reactivation MRR' = SUM ( fct_mrr_monthly[reactivation_mrr_usd] )
+			formatString: \$#,0
+
+		measure 'Net New MRR' = [New MRR] + [Reactivation MRR] + [Expansion MRR] - [Contraction MRR] - [Churned MRR]
+			formatString: \$#,0
+
+		measure 'Active Customers' = CALCULATE ( DISTINCTCOUNT ( fct_mrr_monthly[account_id] ), fct_mrr_monthly[mrr_usd] > 0 )
+			formatString: #,0
+
+		measure 'Starting Customers' = CALCULATE ( DISTINCTCOUNT ( fct_mrr_monthly[account_id] ), fct_mrr_monthly[prev_mrr_usd] > 0 )
+			formatString: #,0
+
+		measure 'Churned Customers' = CALCULATE ( DISTINCTCOUNT ( fct_mrr_monthly[account_id] ), fct_mrr_monthly[movement_type] = "churn" )
+			formatString: #,0
+
+		measure 'Logo Churn Rate' = DIVIDE ( [Churned Customers], [Starting Customers] )
+			formatString: 0.0%
+
+		measure 'Gross Revenue Retention' = DIVIDE ( [Starting MRR] - [Contraction MRR] - [Churned MRR], [Starting MRR] )
+			formatString: 0.0%
+
+		measure 'Net Revenue Retention' = DIVIDE ( [Starting MRR] + [Expansion MRR] - [Contraction MRR] - [Churned MRR], [Starting MRR] )
+			formatString: 0.0%
+
+		measure ARPA = DIVIDE ( [MRR], [Active Customers] )
+			formatString: \$#,0
+
+		measure 'MRR MoM %' = VAR prev = CALCULATE ( [MRR], DATEADD ( dim_date[date_day], -1, MONTH ) ) RETURN DIVIDE ( [MRR] - prev, prev )
+			formatString: 0.0%
+
+		measure 'Monthly Active Users' = SUM ( kpi_product_monthly[monthly_active_users] )
+			formatString: #,0
+
+		measure 'Active Account Rate' = AVERAGE ( kpi_product_monthly[active_account_rate] )
+			formatString: 0.0%
+
+		measure 'DAU/MAU Stickiness' = AVERAGE ( kpi_product_monthly[dau_mau_stickiness] )
+			formatString: 0.0%
+
+		measure 'Feature Adoption Rate' = DIVIDE ( SUM ( fct_feature_adoption_monthly[accounts_using_feature] ), SUM ( fct_feature_adoption_monthly[active_accounts] ) )
+			formatString: 0.0%
+
+		measure 'Rejected Records' = COUNTROWS ( dq_rejected_records )
+			formatString: #,0
