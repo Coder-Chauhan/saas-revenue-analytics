@@ -1,5 +1,6 @@
 # SaaS Revenue & Product Analytics: ELT Pipeline, dbt Models and Power BI
 [![CI](https://github.com/Coder-Chauhan/saas-revenue-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/Coder-Chauhan/saas-revenue-analytics/actions/workflows/ci.yml)
+
 An end-to-end analytics engineering project for a fictional B2B SaaS company that sells an analytics
 platform to financial-services clients. It combines three source systems (CRM, billing API and
 product-usage events) into a tested dimensional model in a DuckDB warehouse. On top of that it
