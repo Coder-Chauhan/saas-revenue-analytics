@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: dq_rejected_records
+    description: Every source record excluded during cleaning, with the reason, for audit and follow-up.

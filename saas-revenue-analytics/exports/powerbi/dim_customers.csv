@@ -1,0 +1,421 @@
+account_id,account_name,industry,segment,region,country,account_owner,created_date,subscription_id,plan,subscription_start_date,subscription_end_date,subscription_status,first_paid_month,last_paid_month,lifetime_revenue_usd,current_mrr_usd,is_active_customer
+ACC-0001,Client 0001 Ltd,Insurance,SMB,AMER,United States,rep_04,2026-01-29,SUB-0001,Starter,2026-02-04,,active,2026-03-01,2026-09-01,1925.00,275.00,true
+ACC-0002,Client 0002 Ltd,Corporate Treasury,Mid-Market,APAC,Australia,rep_02,2025-11-23,SUB-0002,Professional,2025-12-15,,active,2026-01-01,2026-09-01,13500.00,1500.00,true
+ACC-0003,Client 0003 Ltd,Banking,SMB,AMER,United States,rep_04,2024-01-31,SUB-0003,Starter,2024-02-09,,active,2024-03-01,2026-09-01,7875.00,300.00,true
+ACC-0004,Client 0004 Ltd,Asset Management,Mid-Market,AMER,Brazil,rep_11,2025-07-28,SUB-0004,Professional,2025-08-14,,active,2025-09-01,2026-09-01,65520.00,5040.00,true
+ACC-0005,Client 0005 Ltd,Fintech,Mid-Market,AMER,Brazil,rep_05,2024-08-13,SUB-0005,Professional,2024-09-09,,active,2024-10-01,2026-09-01,171360.00,7500.00,true
+ACC-0006,Client 0006 Ltd,Corporate Treasury,Mid-Market,APAC,Singapore,rep_06,2024-06-12,SUB-0006,Professional,2024-06-25,,active,2024-07-01,2026-09-01,182760.00,5340.00,true
+ACC-0007,Client 0007 Ltd,Insurance,SMB,EMEA,United Kingdom,rep_02,2026-02-20,SUB-0007,Enterprise,2026-03-06,2026-06-01,cancelled,2026-04-01,2026-05-01,1540.00,0.00,false
+ACC-0008,Client 0008 Ltd,Insurance,SMB,EMEA,UAE,rep_05,2026-05-17,SUB-0008,Starter,2026-05-17,2026-07-01,cancelled,2026-06-01,2026-06-01,500.00,0.00,false
+ACC-0009,Client 0009 Ltd,Banking,Mid-Market,APAC,Singapore,rep_02,2025-07-03,SUB-0009,Professional,2025-07-28,,active,2025-08-01,2026-09-01,103560.00,8040.00,true
+ACC-0010,Client 0010 Ltd,Exchanges,SMB,AMER,Canada,rep_10,2025-10-05,SUB-0010,Starter,2025-10-15,2025-11-01,cancelled,,,0.00,0.00,false
+ACC-0011,Client 0011 Ltd,Corporate Treasury,Mid-Market,APAC,India,rep_05,2024-02-16,SUB-0011,Professional,2024-03-11,2026-07-01,cancelled,2024-04-01,2026-06-01,79800.00,0.00,false
+ACC-0012,Client 0012 Ltd,Banking,Enterprise,APAC,Singapore,rep_05,2026-06-06,SUB-0012,Enterprise,2026-06-25,,active,2026-07-01,2026-09-01,90321.00,30107.00,true
+ACC-0013,Client 0013 Ltd,Asset Management,Mid-Market,EMEA,Germany,rep_06,2025-01-08,SUB-0013,Professional,2025-01-18,,active,2025-02-01,2026-09-01,161100.00,8580.00,true
+ACC-0014,Client 0014 Ltd,Corporate Treasury,Mid-Market,APAC,Australia,rep_02,2025-12-19,SUB-0014,Professional,2026-01-02,,active,2026-02-01,2026-09-01,51840.00,6480.00,true
+ACC-0015,Client 0015 Ltd,Corporate Treasury,Mid-Market,AMER,United States,rep_03,2025-06-30,SUB-0015,Professional,2025-07-21,,active,2025-08-01,2026-09-01,49140.00,3780.00,true
+ACC-0016,Client 0016 Ltd,Corporate Treasury,SMB,EMEA,UAE,rep_04,2025-10-17,SUB-0016,Starter,2025-10-24,,active,2025-11-01,2026-09-01,2050.00,200.00,true
+ACC-0017,Client 0017 Ltd,Banking,SMB,AMER,United States,rep_01,2026-02-25,SUB-0017,Starter,2026-03-21,,active,2026-04-01,2026-09-01,2775.00,425.00,true
+ACC-0018,Client 0018 Ltd,Asset Management,SMB,EMEA,UAE,rep_12,2024-03-08,SUB-0018,Starter,2024-04-04,2026-07-01,cancelled,2024-05-01,2026-06-01,12400.00,0.00,false
+ACC-0019,Client 0019 Ltd,Fintech,SMB,EMEA,UAE,rep_08,2025-05-26,SUB-0019,Starter,2025-06-17,2026-02-01,cancelled,2025-07-01,2026-01-01,2500.00,0.00,false
+ACC-0020,Client 0020 Ltd,Corporate Treasury,SMB,APAC,Australia,rep_09,2024-09-09,SUB-0020,Starter,2024-10-06,2025-04-01,cancelled,2024-11-01,2025-03-01,1625.00,0.00,false
+ACC-0021,Client 0021 Ltd,Exchanges,Mid-Market,EMEA,Germany,rep_06,2025-03-14,SUB-0021,Professional,2025-04-06,,active,2025-05-01,2026-09-01,105060.00,6180.00,true
+ACC-0022,Client 0022 Ltd,Exchanges,Enterprise,APAC,Singapore,rep_02,2024-05-21,SUB-0022,Enterprise,2024-05-30,,active,2024-06-01,2026-09-01,1541628.00,65824.00,true
+ACC-0023,Client 0023 Ltd,Corporate Treasury,Enterprise,APAC,India,rep_11,2024-06-05,SUB-0023,Enterprise,2024-07-02,,active,2024-08-01,2026-09-01,627946.00,24310.00,true
+ACC-0024,Client 0024 Ltd,Fintech,Mid-Market,EMEA,UAE,rep_08,2025-01-29,SUB-0024,Professional,2025-02-06,,active,2025-03-01,2026-09-01,96900.00,5100.00,true
+ACC-0025,Client 0025 Ltd,Banking,SMB,AMER,Brazil,rep_12,2025-07-20,SUB-0025,Starter,2025-07-31,,active,2025-08-01,2026-09-01,5250.00,375.00,true
+ACC-0026,Client 0026 Ltd,Unknown,Mid-Market,APAC,Australia,rep_06,2025-07-03,SUB-0026,Professional,2025-07-08,,active,2025-08-01,2026-09-01,83520.00,6360.00,true
+ACC-0027,Client 0027 Ltd,Fintech,SMB,APAC,India,rep_12,2024-06-10,SUB-0027,Starter,2024-07-04,,active,2024-08-01,2026-09-01,14800.00,700.00,true
+ACC-0028,Client 0028 Ltd,Asset Management,SMB,AMER,Brazil,rep_02,2025-05-27,SUB-0028,Starter,2025-05-30,,active,2025-06-01,2026-09-01,2000.00,125.00,true
+ACC-0029,Client 0029 Ltd,Exchanges,SMB,AMER,Brazil,rep_04,2025-10-16,SUB-0029,Starter,2025-11-11,,active,2025-12-01,2026-09-01,4000.00,400.00,true
+ACC-0030,Client 0030 Ltd,Exchanges,SMB,APAC,Australia,rep_01,2024-06-14,SUB-0030,Professional,2024-06-26,2026-07-01,cancelled,2024-07-01,2026-06-01,34740.00,0.00,false
+ACC-0031,Client 0031 Ltd,Banking,SMB,AMER,Canada,rep_05,2024-01-20,SUB-0031,Starter,2024-01-24,,active,2024-02-01,2026-09-01,2400.00,75.00,true
+ACC-0032,Client 0032 Ltd,Exchanges,SMB,APAC,India,rep_02,2026-06-18,SUB-0032,Enterprise,2026-06-23,,active,2026-07-01,2026-09-01,5610.00,1870.00,true
+ACC-0033,Client 0033 Ltd,Exchanges,SMB,AMER,United States,rep_03,2024-03-11,SUB-0033,Starter,2024-04-04,2024-07-01,cancelled,2024-05-01,2024-06-01,400.00,0.00,false
+ACC-0034,Client 0034 Ltd,Asset Management,SMB,AMER,Canada,rep_09,2025-07-16,SUB-0034,Professional,2025-08-15,2025-09-01,cancelled,,,0.00,0.00,false
+ACC-0035,Client 0035 Ltd,Exchanges,SMB,AMER,Brazil,rep_12,2024-08-04,SUB-0035,Starter,2024-08-20,,active,2024-09-01,2026-09-01,9300.00,500.00,true
+ACC-0036,Client 0036 Ltd,Corporate Treasury,Mid-Market,APAC,Australia,rep_06,2025-02-12,SUB-0036,Professional,2025-03-14,,active,2025-04-01,2026-09-01,117360.00,8280.00,true
+ACC-0037,Client 0037 Ltd,Banking,Enterprise,EMEA,United Kingdom,rep_04,2025-04-07,SUB-0037,Enterprise,2025-04-21,,active,2025-05-01,2026-09-01,235900.50,12061.50,true
+ACC-0038,Client 0038 Ltd,Exchanges,SMB,APAC,India,rep_10,2025-08-25,SUB-0038,Starter,2025-09-08,,active,2025-10-01,2026-09-01,2250.00,150.00,true
+ACC-0039,Client 0039 Ltd,Corporate Treasury,SMB,APAC,India,rep_04,2025-12-25,SUB-0039,Starter,2026-01-12,,active,2026-02-01,2026-09-01,3050.00,375.00,true
+ACC-0040,Client 0040 Ltd,Insurance,Enterprise,APAC,India,rep_09,2026-05-30,SUB-0040,Enterprise,2026-06-03,,active,2026-07-01,2026-09-01,98455.50,32818.50,true
+ACC-0041,Client 0041 Ltd,Asset Management,SMB,APAC,Australia,rep_03,2025-05-12,SUB-0041,Starter,2025-06-03,,active,2025-07-01,2026-09-01,3375.00,225.00,true
+ACC-0042,Client 0042 Ltd,Exchanges,Enterprise,AMER,Canada,rep_04,2025-08-07,SUB-0042,Professional,2025-08-19,,active,2025-09-01,2026-09-01,272544.00,20757.00,true
+ACC-0043,Client 0043 Ltd,Banking,Mid-Market,EMEA,United Kingdom,rep_11,2024-07-13,SUB-0043,Professional,2024-07-15,,active,2024-08-01,2026-09-01,170280.00,6660.00,true
+ACC-0044,Client 0044 Ltd,Fintech,SMB,EMEA,UAE,rep_01,2025-02-24,SUB-0044,Starter,2025-03-12,,active,2025-04-01,2026-09-01,2750.00,175.00,true
+ACC-0045,Client 0045 Ltd,Banking,Mid-Market,AMER,United States,rep_07,2025-10-23,SUB-0045,Professional,2025-11-01,,active,2025-12-01,2026-09-01,61800.00,6180.00,true
+ACC-0046,Client 0046 Ltd,Banking,SMB,AMER,United States,rep_04,2026-06-01,SUB-0046,Starter,2026-06-21,,active,2026-07-01,2026-09-01,1025.00,375.00,true
+ACC-0047,Client 0047 Ltd,Fintech,Mid-Market,APAC,India,rep_05,2024-05-23,SUB-0047,Professional,2024-06-09,,active,2024-07-01,2026-09-01,145500.00,6000.00,true
+ACC-0048,Client 0048 Ltd,Fintech,SMB,EMEA,UAE,rep_02,2024-03-18,SUB-0048,Professional,2024-04-16,,active,2024-05-01,2026-09-01,19020.00,660.00,true
+ACC-0049,Client 0049 Ltd,Banking,Mid-Market,APAC,India,rep_04,2025-07-07,SUB-0049,Professional,2025-07-25,,active,2025-08-01,2026-09-01,48000.00,3840.00,true
+ACC-0050,Client 0050 Ltd,Asset Management,SMB,APAC,Singapore,rep_01,2025-05-07,SUB-0050,Starter,2025-05-28,,active,2025-06-01,2026-09-01,4100.00,300.00,true
+ACC-0051,Client 0051 Ltd,Insurance,SMB,APAC,Singapore,rep_05,2025-02-03,SUB-0051,Starter,2025-02-16,,active,2025-03-01,2026-09-01,4550.00,200.00,true
+ACC-0052,Client 0052 Ltd,Exchanges,Mid-Market,EMEA,UAE,rep_12,2026-01-18,SUB-0052,Professional,2026-01-30,,active,2026-02-01,2026-09-01,10080.00,1260.00,true
+ACC-0053,Client 0053 Ltd,Asset Management,SMB,EMEA,United Kingdom,rep_10,2024-10-30,SUB-0053,Starter,2024-11-22,2025-08-01,cancelled,2024-12-01,2025-07-01,1400.00,0.00,false
+ACC-0054,Client 0054 Ltd,Insurance,Mid-Market,AMER,United States,rep_01,2026-02-04,SUB-0054,Professional,2026-02-25,,active,2026-03-01,2026-09-01,14700.00,2100.00,true
+ACC-0055,Client 0055 Ltd,Exchanges,SMB,AMER,United States,rep_01,2026-07-30,SUB-0055,Professional,2026-08-06,,active,2026-09-01,2026-09-01,300.00,300.00,true
+ACC-0056,Client 0056 Ltd,Banking,SMB,AMER,Brazil,rep_02,2024-07-09,SUB-0056,Starter,2024-07-23,2026-03-01,cancelled,2024-08-01,2026-02-01,7125.00,0.00,false
+ACC-0057,Client 0057 Ltd,Banking,Enterprise,AMER,Brazil,rep_04,2025-02-17,SUB-0057,Enterprise,2025-03-16,,active,2025-04-01,2026-09-01,665346.00,40859.50,true
+ACC-0058,Client 0058 Ltd,Banking,Mid-Market,AMER,Canada,rep_11,2025-09-26,SUB-0058,Professional,2025-10-22,,active,2025-11-01,2026-09-01,15840.00,1440.00,true
+ACC-0059,Client 0059 Ltd,Insurance,Mid-Market,AMER,United States,rep_11,2024-11-19,SUB-0059,Professional,2024-11-22,,active,2024-12-01,2026-09-01,181560.00,10080.00,true
+ACC-0060,Client 0060 Ltd,Fintech,SMB,AMER,United States,rep_11,2024-09-28,SUB-0060,Starter,2024-10-18,2025-05-01,cancelled,2024-11-01,2025-04-01,1800.00,0.00,false
+ACC-0061,Client 0061 Ltd,Banking,SMB,AMER,United States,rep_08,2024-11-19,SUB-0061,Starter,2024-12-18,,active,2025-01-01,2026-09-01,4725.00,225.00,true
+ACC-0062,Client 0062 Ltd,Banking,Enterprise,AMER,Brazil,rep_04,2024-04-12,SUB-0062,Enterprise,2024-04-22,,active,2024-05-01,2026-09-01,627572.00,21692.00,true
+ACC-0063,Client 0063 Ltd,Banking,SMB,AMER,United States,rep_06,2024-12-23,SUB-0063,Starter,2025-01-06,2026-03-01,cancelled,2025-02-01,2026-02-01,5850.00,0.00,false
+ACC-0064,Client 0064 Ltd,Exchanges,SMB,EMEA,UAE,rep_05,2026-05-03,SUB-0064,Starter,2026-05-15,,active,2026-06-01,2026-09-01,1650.00,525.00,true
+ACC-0065,Client 0065 Ltd,Corporate Treasury,Enterprise,AMER,Brazil,rep_01,2026-04-06,SUB-0065,Enterprise,2026-04-11,,active,2026-05-01,2026-09-01,172975.00,34595.00,true
+ACC-0066,Client 0066 Ltd,Corporate Treasury,Mid-Market,AMER,United States,rep_03,2024-11-02,SUB-0066,Professional,2024-11-23,,active,2024-12-01,2026-09-01,85560.00,4260.00,true
+ACC-0067,Client 0067 Ltd,Corporate Treasury,SMB,EMEA,UAE,rep_03,2024-04-19,SUB-0067,Starter,2024-05-10,,active,2024-06-01,2026-09-01,10075.00,325.00,true
+ACC-0068,Client 0068 Ltd,Corporate Treasury,SMB,EMEA,Germany,rep_04,2024-08-03,SUB-0068,Starter,2024-08-08,,active,2024-09-01,2026-09-01,10625.00,425.00,true
+ACC-0069,Client 0069 Ltd,Exchanges,Mid-Market,AMER,Canada,rep_05,2024-09-27,SUB-0069,Professional,2024-10-25,2024-12-01,cancelled,2024-11-01,2024-11-01,4980.00,0.00,false
+ACC-0070,Client 0070 Ltd,Insurance,SMB,APAC,India,rep_01,2025-03-09,SUB-0070,Starter,2025-04-03,2025-10-01,cancelled,2025-05-01,2025-09-01,375.00,0.00,false
+ACC-0071,Client 0071 Ltd,Insurance,Mid-Market,EMEA,United Kingdom,rep_12,2025-10-14,SUB-0071,Professional,2025-10-26,,active,2025-11-01,2026-09-01,70620.00,6420.00,true
+ACC-0072,Client 0072 Ltd,Exchanges,Mid-Market,EMEA,United Kingdom,rep_02,2025-03-13,SUB-0072,Professional,2025-03-25,,active,2025-04-01,2026-09-01,46800.00,3300.00,true
+ACC-0073,Client 0073 Ltd,Asset Management,Enterprise,APAC,Australia,rep_01,2025-12-08,SUB-0073,Professional,2025-12-11,,active,2026-01-01,2026-09-01,118881.00,13209.00,true
+ACC-0074,Client 0074 Ltd,Fintech,Mid-Market,EMEA,United Kingdom,rep_01,2024-05-31,SUB-0074,Professional,2024-06-21,,active,2024-07-01,2026-09-01,72900.00,2700.00,true
+ACC-0075,Client 0075 Ltd,Banking,SMB,EMEA,Germany,rep_04,2026-03-26,SUB-0075,Enterprise,2026-04-23,2026-08-01,cancelled,2026-05-01,2026-07-01,5610.00,0.00,false
+ACC-0076,Client 0076 Ltd,Insurance,SMB,AMER,Brazil,rep_07,2024-04-15,SUB-0076,Starter,2024-04-19,2026-06-01,cancelled,2024-05-01,2026-05-01,20675.00,0.00,false
+ACC-0077,Client 0077 Ltd,Asset Management,Mid-Market,AMER,United States,rep_07,2024-08-30,SUB-0077,Professional,2024-09-14,,active,2024-10-01,2026-09-01,134640.00,6540.00,true
+ACC-0078,Client 0078 Ltd,Fintech,SMB,APAC,Australia,rep_12,2024-12-06,SUB-0078,Starter,2025-01-05,2025-08-01,cancelled,2025-02-01,2025-07-01,3000.00,0.00,false
+ACC-0079,Client 0079 Ltd,Corporate Treasury,SMB,APAC,India,rep_07,2026-03-17,SUB-0079,Starter,2026-04-02,,active,2026-05-01,2026-09-01,625.00,125.00,true
+ACC-0080,Client 0080 Ltd,Asset Management,Enterprise,APAC,Singapore,rep_06,2024-08-15,SUB-0080,Enterprise,2024-09-08,2026-05-01,cancelled,2024-10-01,2026-04-01,330429.00,0.00,false
+ACC-0081,Client 0081 Ltd,Asset Management,Mid-Market,EMEA,United Kingdom,rep_01,2026-06-11,SUB-0081,Professional,2026-06-26,,active,2026-07-01,2026-09-01,19440.00,6480.00,true
+ACC-0082,Client 0082 Ltd,Insurance,SMB,AMER,United States,rep_05,2024-12-02,SUB-0082,Professional,2024-12-26,,active,2025-01-01,2026-09-01,19560.00,1080.00,true
+ACC-0083,Client 0083 Ltd,Corporate Treasury,Mid-Market,EMEA,UAE,rep_06,2025-02-13,SUB-0083,Professional,2025-02-23,,active,2025-03-01,2026-09-01,124560.00,7620.00,true
+ACC-0084,Client 0084 Ltd,Asset Management,SMB,APAC,Australia,rep_05,2024-09-24,SUB-0084,Professional,2024-10-03,2026-07-01,cancelled,2024-11-01,2026-06-01,4800.00,0.00,false
+ACC-0085,Client 0085 Ltd,Insurance,SMB,APAC,Australia,rep_06,2025-03-20,SUB-0085,Starter,2025-03-27,,active,2025-04-01,2026-09-01,7825.00,525.00,true
+ACC-0086,Client 0086 Ltd,Banking,Mid-Market,EMEA,Germany,rep_10,2025-06-07,SUB-0086,Professional,2025-06-28,,active,2025-07-01,2026-09-01,60300.00,4020.00,true
+ACC-0087,Client 0087 Ltd,Fintech,SMB,APAC,India,rep_09,2025-12-26,SUB-0087,Starter,2026-01-17,,active,2026-02-01,2026-09-01,2200.00,300.00,true
+ACC-0088,Client 0088 Ltd,Corporate Treasury,Mid-Market,AMER,Brazil,rep_04,2026-01-29,SUB-0088,Professional,2026-02-03,,active,2026-03-01,2026-09-01,38640.00,5520.00,true
+ACC-0089,Client 0089 Ltd,Insurance,SMB,EMEA,UAE,rep_06,2025-11-11,SUB-0089,Enterprise,2025-12-03,,active,2026-01-01,2026-09-01,16610.00,2090.00,true
+ACC-0090,Client 0090 Ltd,Insurance,Mid-Market,AMER,Brazil,rep_05,2026-01-07,SUB-0090,Professional,2026-01-08,,active,2026-02-01,2026-09-01,48480.00,5820.00,true
+ACC-0091,Client 0091 Ltd,Corporate Treasury,SMB,AMER,Canada,rep_09,2025-02-16,SUB-0091,Starter,2025-03-01,,active,2025-04-01,2026-09-01,3200.00,200.00,true
+ACC-0092,Client 0092 Ltd,Fintech,SMB,APAC,Australia,rep_12,2025-11-11,SUB-0092,Starter,2025-11-13,,active,2025-12-01,2026-09-01,2425.00,175.00,true
+ACC-0093,Client 0093 Ltd,Fintech,Mid-Market,APAC,Australia,rep_01,2024-11-04,SUB-0093,Professional,2024-11-26,,active,2024-12-01,2026-09-01,112620.00,5940.00,true
+ACC-0094,Client 0094 Ltd,Exchanges,SMB,EMEA,UAE,rep_11,2025-03-16,SUB-0094,Starter,2025-04-12,2025-07-01,cancelled,2025-05-01,2025-06-01,700.00,0.00,false
+ACC-0095,Client 0095 Ltd,Corporate Treasury,SMB,EMEA,United Kingdom,rep_09,2025-03-28,SUB-0095,Starter,2025-04-27,,active,2025-05-01,2026-09-01,3375.00,175.00,true
+ACC-0096,Client 0096 Ltd,Corporate Treasury,Mid-Market,EMEA,United Kingdom,rep_11,2026-03-26,SUB-0096,Starter,2026-04-05,,active,2026-05-01,2026-09-01,5125.00,1025.00,true
+ACC-0097,Client 0097 Ltd,Corporate Treasury,SMB,APAC,Australia,rep_06,2025-11-10,SUB-0097,Starter,2025-11-14,,active,2025-12-01,2026-09-01,3300.00,300.00,true
+ACC-0098,Client 0098 Ltd,Asset Management,Mid-Market,APAC,Australia,rep_05,2026-02-08,SUB-0098,Professional,2026-03-07,,active,2026-04-01,2026-09-01,24840.00,4140.00,true
+ACC-0099,Client 0099 Ltd,Banking,Mid-Market,APAC,India,rep_04,2024-05-30,SUB-0099,Professional,2024-06-14,,active,2024-07-01,2026-09-01,152400.00,6060.00,true
+ACC-0100,Client 0100 Ltd,Banking,Mid-Market,EMEA,Germany,rep_07,2026-02-25,SUB-0100,Professional,2026-03-03,,active,2026-04-01,2026-09-01,13500.00,1920.00,true
+ACC-0101,Client 0101 Ltd,Corporate Treasury,Mid-Market,AMER,Canada,rep_08,2026-01-05,SUB-0101,Professional,2026-02-01,,active,2026-03-01,2026-09-01,11760.00,1680.00,true
+ACC-0102,Client 0102 Ltd,Corporate Treasury,SMB,EMEA,United Kingdom,rep_02,2025-11-02,SUB-0102,Starter,2025-11-17,,active,2025-12-01,2026-09-01,750.00,75.00,true
+ACC-0103,Client 0103 Ltd,Corporate Treasury,SMB,EMEA,UAE,rep_08,2026-04-03,SUB-0103,Starter,2026-04-09,,active,2026-05-01,2026-09-01,1125.00,225.00,true
+ACC-0104,Client 0104 Ltd,Banking,Mid-Market,APAC,Singapore,rep_03,2026-07-28,SUB-0104,Enterprise,2026-07-29,,active,2026-08-01,2026-09-01,12980.00,6490.00,true
+ACC-0105,Client 0105 Ltd,Exchanges,Mid-Market,EMEA,Germany,rep_08,2025-07-26,SUB-0105,Professional,2025-08-15,,active,2025-09-01,2026-09-01,70200.00,5400.00,true
+ACC-0106,Client 0106 Ltd,Exchanges,Mid-Market,AMER,Canada,rep_09,2026-07-02,SUB-0106,Professional,2026-07-22,,active,2026-08-01,2026-09-01,2760.00,1380.00,true
+ACC-0107,Client 0107 Ltd,Fintech,Enterprise,EMEA,Germany,rep_05,2026-01-31,SUB-0107,Enterprise,2026-02-03,,active,2026-03-01,2026-09-01,183260.00,26180.00,true
+ACC-0108,Client 0108 Ltd,Exchanges,Mid-Market,APAC,Singapore,rep_11,2024-10-10,SUB-0108,Starter,2024-11-08,2026-08-01,cancelled,2024-12-01,2026-07-01,25250.00,0.00,false
+ACC-0109,Client 0109 Ltd,Corporate Treasury,SMB,APAC,Singapore,rep_04,2024-03-20,SUB-0109,Starter,2024-03-29,2025-12-01,cancelled,2024-04-01,2025-11-01,7125.00,0.00,false
+ACC-0110,Client 0110 Ltd,Exchanges,SMB,EMEA,United Kingdom,rep_03,2026-07-03,SUB-0110,Starter,2026-07-05,,active,2026-08-01,2026-09-01,400.00,200.00,true
+ACC-0111,Client 0111 Ltd,Asset Management,SMB,APAC,Australia,rep_04,2025-12-11,SUB-0111,Starter,2025-12-29,,active,2026-01-01,2026-09-01,1350.00,150.00,true
+ACC-0112,Client 0112 Ltd,Exchanges,SMB,APAC,Singapore,rep_07,2024-12-04,SUB-0112,Professional,2024-12-06,2025-01-01,cancelled,,,0.00,0.00,false
+ACC-0113,Client 0113 Ltd,Fintech,SMB,APAC,Australia,rep_12,2025-03-06,SUB-0113,Professional,2025-03-15,,active,2025-04-01,2026-09-01,9720.00,540.00,true
+ACC-0114,Client 0114 Ltd,Exchanges,Enterprise,APAC,Singapore,rep_08,2026-02-22,SUB-0114,Enterprise,2026-02-27,,active,2026-03-01,2026-09-01,336880.50,56941.50,true
+ACC-0115,Client 0115 Ltd,Fintech,Enterprise,APAC,Singapore,rep_09,2024-11-01,SUB-0115,Enterprise,2024-11-23,,active,2024-12-01,2026-09-01,935935.00,42542.50,true
+ACC-0116,Client 0116 Ltd,Exchanges,Mid-Market,AMER,United States,rep_08,2026-03-30,SUB-0116,Professional,2026-03-30,,active,2026-04-01,2026-09-01,27720.00,4620.00,true
+ACC-0117,Client 0117 Ltd,Banking,SMB,APAC,Singapore,rep_06,2025-05-12,SUB-0117,Starter,2025-06-08,,active,2025-07-01,2026-09-01,6750.00,450.00,true
+ACC-0118,Client 0118 Ltd,Corporate Treasury,Mid-Market,AMER,United States,rep_08,2025-02-18,SUB-0118,Professional,2025-02-19,,active,2025-03-01,2026-09-01,37620.00,1980.00,true
+ACC-0119,Client 0119 Ltd,Banking,Enterprise,APAC,Singapore,rep_10,2025-06-30,SUB-0119,Enterprise,2025-07-21,,active,2025-08-01,2026-09-01,437206.00,31229.00,true
+ACC-0120,Client 0120 Ltd,Corporate Treasury,Mid-Market,AMER,Canada,rep_03,2024-03-26,SUB-0120,Professional,2024-04-06,2026-07-01,cancelled,2024-05-01,2026-06-01,84120.00,0.00,false
+ACC-0121,Client 0121 Ltd,Fintech,SMB,EMEA,Germany,rep_04,2024-09-23,SUB-0121,Starter,2024-10-20,,active,2024-11-01,2026-09-01,12100.00,650.00,true
+ACC-0122,Client 0122 Ltd,Fintech,SMB,EMEA,Germany,rep_07,2026-02-18,SUB-0122,Starter,2026-02-28,,active,2026-03-01,2026-09-01,700.00,100.00,true
+ACC-0123,Client 0123 Ltd,Banking,Mid-Market,EMEA,UAE,rep_09,2025-04-26,SUB-0123,Professional,2025-05-24,,active,2025-06-01,2026-09-01,90960.00,5460.00,true
+ACC-0124,Client 0124 Ltd,Asset Management,Enterprise,APAC,Australia,rep_02,2024-12-24,SUB-0124,Enterprise,2025-01-17,,active,2025-02-01,2026-09-01,881518.00,58063.50,true
+ACC-0125,Client 0125 Ltd,Asset Management,SMB,AMER,United States,rep_01,2024-02-01,SUB-0125,Starter,2024-02-24,2026-06-01,cancelled,2024-03-01,2026-05-01,6850.00,0.00,false
+ACC-0126,Client 0126 Ltd,Fintech,SMB,AMER,Brazil,rep_02,2024-05-09,SUB-0126,Starter,2024-05-22,2025-05-01,cancelled,2024-06-01,2025-04-01,4125.00,0.00,false
+ACC-0127,Client 0127 Ltd,Corporate Treasury,Enterprise,AMER,Canada,rep_06,2025-04-21,SUB-0127,Enterprise,2025-04-25,,active,2025-05-01,2026-09-01,607656.50,39083.00,true
+ACC-0128,Client 0128 Ltd,Corporate Treasury,Mid-Market,APAC,India,rep_03,2026-02-04,SUB-0128,Professional,2026-02-04,,active,2026-03-01,2026-09-01,22260.00,3180.00,true
+ACC-0129,Client 0129 Ltd,Insurance,SMB,EMEA,UAE,rep_11,2024-01-27,SUB-0129,Starter,2024-02-16,,active,2024-03-01,2026-09-01,8825.00,350.00,true
+ACC-0130,Client 0130 Ltd,Asset Management,SMB,EMEA,United Kingdom,rep_10,2026-01-02,SUB-0130,Starter,2026-01-25,,active,2026-02-01,2026-09-01,3300.00,525.00,true
+ACC-0131,Client 0131 Ltd,Banking,Mid-Market,AMER,Brazil,rep_05,2024-09-05,SUB-0131,Professional,2024-09-27,,active,2024-10-01,2026-09-01,92100.00,3480.00,true
+ACC-0132,Client 0132 Ltd,Exchanges,Mid-Market,AMER,United States,rep_06,2024-05-03,SUB-0132,Professional,2024-05-29,2025-07-01,cancelled,2024-06-01,2025-06-01,45240.00,0.00,false
+ACC-0133,Client 0133 Ltd,Banking,SMB,AMER,Brazil,rep_11,2025-01-14,SUB-0133,Starter,2025-01-18,2026-01-01,cancelled,2025-02-01,2025-12-01,1850.00,0.00,false
+ACC-0134,Client 0134 Ltd,Fintech,SMB,EMEA,United Kingdom,rep_07,2025-03-06,SUB-0134,Starter,2025-04-04,2025-06-01,cancelled,2025-05-01,2025-05-01,375.00,0.00,false
+ACC-0135,Client 0135 Ltd,Fintech,Mid-Market,EMEA,UAE,rep_03,2026-04-28,SUB-0135,Professional,2026-05-08,,active,2026-06-01,2026-09-01,5520.00,1380.00,true
+ACC-0136,Client 0136 Ltd,Corporate Treasury,SMB,EMEA,Germany,rep_10,2025-06-18,SUB-0136,Starter,2025-07-17,,active,2025-08-01,2026-09-01,3150.00,225.00,true
+ACC-0137,Client 0137 Ltd,Fintech,Mid-Market,AMER,Brazil,rep_10,2025-04-21,SUB-0137,Professional,2025-05-13,,active,2025-06-01,2026-09-01,72720.00,5580.00,true
+ACC-0138,Client 0138 Ltd,Banking,SMB,EMEA,Germany,rep_08,2024-09-08,SUB-0138,Starter,2024-09-10,2025-11-01,cancelled,2024-10-01,2025-10-01,2925.00,0.00,false
+ACC-0139,Client 0139 Ltd,Exchanges,Mid-Market,APAC,Australia,rep_07,2025-08-06,SUB-0139,Professional,2025-08-17,,active,2025-09-01,2026-09-01,65520.00,5040.00,true
+ACC-0140,Client 0140 Ltd,Insurance,SMB,EMEA,United Kingdom,rep_08,2026-05-21,SUB-0140,Starter,2026-06-10,,active,2026-07-01,2026-09-01,225.00,75.00,true
+ACC-0141,Client 0141 Ltd,Insurance,SMB,APAC,Singapore,rep_10,2024-09-21,SUB-0141,Starter,2024-10-08,,active,2024-11-01,2026-09-01,7500.00,400.00,true
+ACC-0142,Client 0142 Ltd,Banking,Enterprise,AMER,Brazil,rep_04,2025-07-23,SUB-0142,Enterprise,2025-08-11,,active,2025-09-01,2026-09-01,537625.00,38709.00,true
+ACC-0143,Client 0143 Ltd,Fintech,SMB,APAC,Australia,rep_04,2025-02-20,SUB-0143,Starter,2025-03-14,,active,2025-04-01,2026-09-01,5400.00,300.00,true
+ACC-0144,Client 0144 Ltd,Fintech,SMB,AMER,Canada,rep_01,2025-12-29,SUB-0144,Starter,2026-01-01,,active,2026-02-01,2026-09-01,1800.00,225.00,true
+ACC-0145,Client 0145 Ltd,Corporate Treasury,SMB,APAC,India,rep_05,2025-02-18,SUB-0145,Starter,2025-02-22,2026-01-01,cancelled,2025-03-01,2025-12-01,1750.00,0.00,false
+ACC-0146,Client 0146 Ltd,Exchanges,Mid-Market,AMER,Brazil,rep_06,2025-04-29,SUB-0146,Professional,2025-05-20,,active,2025-06-01,2026-09-01,63600.00,3900.00,true
+ACC-0147,Client 0147 Ltd,Insurance,Enterprise,EMEA,Germany,rep_12,2025-07-17,SUB-0147,Enterprise,2025-07-29,,active,2025-08-01,2026-09-01,272272.00,19448.00,true
+ACC-0148,Client 0148 Ltd,Asset Management,SMB,EMEA,United Kingdom,rep_12,2024-09-14,SUB-0148,Starter,2024-10-12,2024-12-01,cancelled,2024-11-01,2024-11-01,225.00,0.00,false
+ACC-0149,Client 0149 Ltd,Exchanges,SMB,APAC,Australia,rep_03,2026-01-30,SUB-0149,Starter,2026-02-02,,active,2026-03-01,2026-09-01,2975.00,425.00,true
+ACC-0150,Client 0150 Ltd,Insurance,SMB,APAC,Australia,rep_10,2025-05-10,SUB-0150,Starter,2025-05-21,,active,2025-06-01,2026-09-01,3700.00,225.00,true
+ACC-0151,Client 0151 Ltd,Asset Management,Mid-Market,AMER,Canada,rep_04,2024-04-12,SUB-0151,Professional,2024-04-15,2025-02-01,cancelled,2024-05-01,2025-01-01,25920.00,0.00,false
+ACC-0152,Client 0152 Ltd,Corporate Treasury,SMB,EMEA,UAE,rep_03,2024-01-15,SUB-0152,Starter,2024-02-05,,active,2024-03-01,2026-09-01,14725.00,475.00,true
+ACC-0153,Client 0153 Ltd,Exchanges,SMB,EMEA,Germany,rep_12,2024-02-25,SUB-0153,Professional,2024-03-24,2024-07-01,cancelled,2024-04-01,2024-06-01,2520.00,0.00,false
+ACC-0154,Client 0154 Ltd,Fintech,Mid-Market,APAC,India,rep_01,2026-02-09,SUB-0154,Professional,2026-02-16,,active,2026-03-01,2026-09-01,51720.00,9240.00,true
+ACC-0155,Client 0155 Ltd,Fintech,SMB,AMER,Canada,rep_03,2025-05-05,SUB-0155,Professional,2025-05-22,,active,2025-06-01,2026-09-01,11160.00,840.00,true
+ACC-0156,Client 0156 Ltd,Fintech,SMB,APAC,India,rep_02,2026-06-01,SUB-0156,Starter,2026-06-10,,active,2026-07-01,2026-09-01,1125.00,375.00,true
+ACC-0157,Client 0157 Ltd,Corporate Treasury,SMB,EMEA,UAE,rep_01,2025-08-13,SUB-0157,Starter,2025-08-20,,active,2025-09-01,2026-09-01,3600.00,300.00,true
+ACC-0158,Client 0158 Ltd,Insurance,SMB,APAC,India,rep_04,2025-07-30,SUB-0158,Starter,2025-08-03,,active,2025-09-01,2026-09-01,3175.00,250.00,true
+ACC-0159,Client 0159 Ltd,Exchanges,Mid-Market,APAC,Australia,rep_10,2025-03-02,SUB-0159,Professional,2025-03-25,2025-10-01,cancelled,2025-04-01,2025-09-01,28080.00,0.00,false
+ACC-0160,Client 0160 Ltd,Fintech,Mid-Market,APAC,Singapore,rep_05,2025-01-24,SUB-0160,Professional,2025-02-04,2025-06-01,cancelled,2025-03-01,2025-05-01,11520.00,0.00,false
+ACC-0161,Client 0161 Ltd,Exchanges,Enterprise,AMER,Brazil,rep_01,2024-11-08,SUB-0161,Enterprise,2024-12-08,,active,2025-01-01,2026-09-01,671517.00,43197.00,true
+ACC-0162,Client 0162 Ltd,Asset Management,Enterprise,AMER,Brazil,rep_04,2024-04-11,SUB-0162,Enterprise,2024-04-29,,active,2024-05-01,2026-09-01,517896.50,17858.50,true
+ACC-0163,Client 0163 Ltd,Asset Management,Mid-Market,EMEA,United Kingdom,rep_09,2024-06-09,SUB-0163,Professional,2024-07-02,,active,2024-08-01,2026-09-01,151980.00,5160.00,true
+ACC-0164,Client 0164 Ltd,Fintech,SMB,APAC,Australia,rep_10,2025-02-22,SUB-0164,Starter,2025-03-14,,active,2025-04-01,2026-09-01,7825.00,425.00,true
+ACC-0165,Client 0165 Ltd,Insurance,SMB,EMEA,UAE,rep_05,2024-08-25,SUB-0165,Starter,2024-08-30,2025-04-01,cancelled,2024-09-01,2025-03-01,1225.00,0.00,false
+ACC-0166,Client 0166 Ltd,Corporate Treasury,Enterprise,AMER,United States,rep_05,2024-03-13,SUB-0166,Enterprise,2024-03-30,,active,2024-04-01,2026-09-01,1403435.00,57035.00,true
+ACC-0167,Client 0167 Ltd,Asset Management,Mid-Market,AMER,Canada,rep_02,2026-04-03,SUB-0167,Starter,2026-04-05,,active,2026-05-01,2026-09-01,6625.00,1325.00,true
+ACC-0168,Client 0168 Ltd,Insurance,SMB,AMER,United States,rep_02,2024-06-01,SUB-0168,Enterprise,2024-06-19,2024-12-01,cancelled,2024-07-01,2024-11-01,4950.00,0.00,false
+ACC-0169,Client 0169 Ltd,Exchanges,SMB,APAC,Australia,rep_10,2024-11-10,SUB-0169,Starter,2024-12-07,,active,2025-01-01,2026-09-01,11725.00,600.00,true
+ACC-0170,Client 0170 Ltd,Corporate Treasury,SMB,EMEA,Germany,rep_12,2025-04-24,SUB-0170,Starter,2025-05-20,2025-10-01,cancelled,2025-06-01,2025-09-01,1700.00,0.00,false
+ACC-0171,Client 0171 Ltd,Exchanges,Enterprise,EMEA,Germany,rep_08,2025-05-27,SUB-0171,Enterprise,2025-05-27,,active,2025-06-01,2026-09-01,980254.00,89666.50,true
+ACC-0172,Client 0172 Ltd,Fintech,Mid-Market,APAC,Australia,rep_06,2026-06-29,SUB-0172,Professional,2026-07-24,,active,2026-08-01,2026-09-01,6120.00,3060.00,true
+ACC-0173,Client 0173 Ltd,Asset Management,SMB,AMER,Brazil,rep_10,2024-04-03,SUB-0173,Enterprise,2024-04-06,2024-08-01,cancelled,2024-05-01,2024-07-01,1980.00,0.00,false
+ACC-0174,Client 0174 Ltd,Corporate Treasury,Enterprise,AMER,Canada,rep_10,2026-02-22,SUB-0174,Enterprise,2026-03-14,,active,2026-04-01,2026-09-01,117623.00,23749.00,true
+ACC-0175,Client 0175 Ltd,Fintech,Mid-Market,APAC,Australia,rep_11,2024-06-28,SUB-0175,Professional,2024-07-15,,active,2024-08-01,2026-09-01,72420.00,3060.00,true
+ACC-0176,Client 0176 Ltd,Exchanges,Enterprise,EMEA,Germany,rep_11,2024-07-04,SUB-0176,Enterprise,2024-07-17,,active,2024-08-01,2026-09-01,1055334.50,46002.00,true
+ACC-0177,Client 0177 Ltd,Insurance,Enterprise,EMEA,Germany,rep_06,2025-04-26,SUB-0177,Enterprise,2025-05-19,,active,2025-06-01,2026-09-01,405229.00,30481.00,true
+ACC-0178,Client 0178 Ltd,Asset Management,Mid-Market,EMEA,Germany,rep_07,2026-05-28,SUB-0178,Professional,2026-05-30,,active,2026-06-01,2026-09-01,7440.00,1620.00,true
+ACC-0179,Client 0179 Ltd,Fintech,SMB,AMER,Brazil,rep_01,2025-11-09,SUB-0179,Starter,2025-11-24,2026-08-01,cancelled,2025-12-01,2026-07-01,2200.00,0.00,false
+ACC-0180,Client 0180 Ltd,Insurance,SMB,EMEA,United Kingdom,rep_07,2024-09-15,SUB-0180,Starter,2024-10-07,2025-03-01,cancelled,2024-11-01,2025-02-01,800.00,0.00,false
+ACC-0181,Client 0181 Ltd,Corporate Treasury,Mid-Market,AMER,Brazil,rep_08,2024-01-02,SUB-0181,Professional,2024-01-07,,active,2024-02-01,2026-09-01,102960.00,3780.00,true
+ACC-0182,Client 0182 Ltd,Insurance,SMB,EMEA,UAE,rep_08,2025-06-14,SUB-0182,Starter,2025-07-06,,active,2025-08-01,2026-09-01,7000.00,500.00,true
+ACC-0183,Client 0183 Ltd,Asset Management,SMB,AMER,Canada,rep_09,2024-02-22,SUB-0183,Professional,2024-02-24,2024-07-01,cancelled,2024-03-01,2024-06-01,4800.00,0.00,false
+ACC-0184,Client 0184 Ltd,Corporate Treasury,Enterprise,APAC,Singapore,rep_02,2025-03-24,SUB-0184,Enterprise,2025-04-09,2026-02-01,cancelled,2025-05-01,2026-01-01,275357.50,0.00,false
+ACC-0185,Client 0185 Ltd,Asset Management,Enterprise,APAC,Australia,rep_03,2025-09-15,SUB-0185,Enterprise,2025-10-01,,active,2025-11-01,2026-09-01,441226.50,40111.50,true
+ACC-0186,Client 0186 Ltd,Fintech,Mid-Market,EMEA,United Kingdom,rep_04,2025-07-19,SUB-0186,Professional,2025-07-23,2025-09-01,cancelled,2025-08-01,2025-08-01,4380.00,0.00,false
+ACC-0187,Client 0187 Ltd,Corporate Treasury,SMB,APAC,India,rep_08,2024-04-30,SUB-0187,Enterprise,2024-05-28,,active,2024-06-01,2026-09-01,57860.00,2860.00,true
+ACC-0188,Client 0188 Ltd,Insurance,SMB,AMER,Canada,rep_08,2025-12-23,SUB-0188,Starter,2026-01-19,,active,2026-02-01,2026-09-01,3200.00,400.00,true
+ACC-0189,Client 0189 Ltd,Asset Management,SMB,EMEA,Germany,rep_04,2025-07-18,SUB-0189,Starter,2025-07-27,,active,2025-08-01,2026-09-01,3500.00,250.00,true
+ACC-0190,Client 0190 Ltd,Asset Management,Mid-Market,AMER,United States,rep_05,2026-06-19,SUB-0190,Professional,2026-06-20,,active,2026-07-01,2026-09-01,6480.00,2160.00,true
+ACC-0191,Client 0191 Ltd,Exchanges,SMB,EMEA,Germany,rep_01,2026-03-17,SUB-0191,Starter,2026-04-11,,active,2026-05-01,2026-09-01,475.00,100.00,true
+ACC-0192,Client 0192 Ltd,Exchanges,Mid-Market,EMEA,UAE,rep_11,2026-05-07,SUB-0192,Professional,2026-05-08,,active,2026-06-01,2026-09-01,13260.00,2340.00,true
+ACC-0193,Client 0193 Ltd,Exchanges,Enterprise,EMEA,Germany,rep_06,2025-04-02,SUB-0193,Professional,2025-04-21,,active,2025-05-01,2026-09-01,236385.00,15963.00,true
+ACC-0194,Client 0194 Ltd,Fintech,Mid-Market,EMEA,Germany,rep_06,2025-07-10,SUB-0194,Professional,2025-07-17,,active,2025-08-01,2026-09-01,72360.00,5340.00,true
+ACC-0195,Client 0195 Ltd,Exchanges,Enterprise,APAC,Singapore,rep_04,2024-09-01,SUB-0195,Enterprise,2024-09-02,,active,2024-10-01,2026-09-01,711909.00,31322.50,true
+ACC-0196,Client 0196 Ltd,Fintech,SMB,EMEA,UAE,rep_07,2026-02-01,SUB-0196,Starter,2026-02-17,,active,2026-03-01,2026-09-01,1575.00,225.00,true
+ACC-0197,Client 0197 Ltd,Corporate Treasury,Enterprise,EMEA,United Kingdom,rep_08,2026-03-22,SUB-0197,Professional,2026-04-12,,active,2026-05-01,2026-09-01,134640.00,26928.00,true
+ACC-0198,Client 0198 Ltd,Insurance,SMB,APAC,India,rep_08,2025-08-27,SUB-0198,Enterprise,2025-09-12,,active,2025-10-01,2026-09-01,18480.00,1540.00,true
+ACC-0199,Client 0199 Ltd,Banking,Mid-Market,APAC,Australia,rep_03,2025-04-12,SUB-0199,Professional,2025-05-11,2026-03-01,cancelled,2025-06-01,2026-02-01,45900.00,0.00,false
+ACC-0200,Client 0200 Ltd,Banking,Enterprise,EMEA,Germany,rep_05,2024-06-07,SUB-0200,Enterprise,2024-06-27,,active,2024-07-01,2026-09-01,1067863.50,39550.50,true
+ACC-0201,Client 0201 Ltd,Corporate Treasury,Mid-Market,EMEA,United Kingdom,rep_06,2025-02-11,SUB-0201,Professional,2025-03-09,,active,2025-04-01,2026-09-01,92880.00,5160.00,true
+ACC-0202,Client 0202 Ltd,Insurance,Enterprise,AMER,Brazil,rep_12,2025-01-24,SUB-0202,Enterprise,2025-02-08,,active,2025-03-01,2026-09-01,319489.50,16923.50,true
+ACC-0203,Client 0203 Ltd,Exchanges,Enterprise,EMEA,United Kingdom,rep_04,2024-02-06,SUB-0203,Enterprise,2024-02-13,,active,2024-03-01,2026-09-01,1227748.50,42823.00,true
+ACC-0204,Client 0204 Ltd,Asset Management,Mid-Market,AMER,Brazil,rep_02,2024-10-21,SUB-0204,Professional,2024-11-10,,active,2024-12-01,2026-09-01,97680.00,4440.00,true
+ACC-0205,Client 0205 Ltd,Corporate Treasury,Enterprise,EMEA,UAE,rep_02,2026-02-17,SUB-0205,Enterprise,2026-03-16,,active,2026-04-01,2026-09-01,157454.00,22346.50,true
+ACC-0206,Client 0206 Ltd,Banking,SMB,EMEA,United Kingdom,rep_06,2024-11-02,SUB-0206,Starter,2024-11-18,,active,2024-12-01,2026-09-01,11575.00,725.00,true
+ACC-0207,Client 0207 Ltd,Fintech,SMB,APAC,India,rep_04,2025-01-18,SUB-0207,Starter,2025-01-19,,active,2025-02-01,2026-09-01,4400.00,275.00,true
+ACC-0208,Client 0208 Ltd,Asset Management,SMB,AMER,United States,rep_03,2025-11-29,SUB-0208,Starter,2025-12-25,,active,2026-01-01,2026-09-01,3550.00,450.00,true
+ACC-0209,Client 0209 Ltd,Exchanges,Mid-Market,APAC,Australia,rep_04,2025-01-26,SUB-0209,Professional,2025-02-01,,active,2025-03-01,2026-09-01,180660.00,9900.00,true
+ACC-0210,Client 0210 Ltd,Asset Management,Enterprise,EMEA,Germany,rep_11,2024-05-26,SUB-0210,Enterprise,2024-06-07,,active,2024-07-01,2026-09-01,1532371.50,56754.50,true
+ACC-0211,Client 0211 Ltd,Banking,SMB,EMEA,Germany,rep_05,2025-11-13,SUB-0211,Starter,2025-12-07,,active,2026-01-01,2026-09-01,3825.00,425.00,true
+ACC-0212,Client 0212 Ltd,Fintech,Mid-Market,AMER,Canada,rep_10,2024-03-16,SUB-0212,Professional,2024-03-21,2025-12-01,cancelled,2024-04-01,2025-11-01,27480.00,0.00,false
+ACC-0213,Client 0213 Ltd,Corporate Treasury,Mid-Market,EMEA,Germany,rep_08,2025-03-10,SUB-0213,Professional,2025-03-31,,active,2025-04-01,2026-09-01,49680.00,2760.00,true
+ACC-0214,Client 0214 Ltd,Fintech,SMB,EMEA,United Kingdom,rep_04,2025-01-28,SUB-0214,Starter,2025-02-03,,active,2025-03-01,2026-09-01,2850.00,150.00,true
+ACC-0215,Client 0215 Ltd,Insurance,Mid-Market,EMEA,UAE,rep_05,2025-08-11,SUB-0215,Professional,2025-09-03,,active,2025-10-01,2026-09-01,30300.00,2700.00,true
+ACC-0216,Client 0216 Ltd,Fintech,Enterprise,APAC,Singapore,rep_01,2025-11-05,SUB-0216,Enterprise,2025-11-06,,active,2025-12-01,2026-09-01,342210.00,34221.00,true
+ACC-0217,Client 0217 Ltd,Corporate Treasury,Enterprise,AMER,United States,rep_10,2026-03-07,SUB-0217,Enterprise,2026-03-15,,active,2026-04-01,2026-09-01,293403.00,48900.50,true
+ACC-0218,Client 0218 Ltd,Insurance,SMB,AMER,United States,rep_10,2026-07-14,SUB-0218,Starter,2026-07-22,,active,2026-08-01,2026-09-01,700.00,350.00,true
+ACC-0219,Client 0219 Ltd,Exchanges,SMB,EMEA,Germany,rep_11,2024-07-13,SUB-0219,Starter,2024-08-01,,active,2024-09-01,2026-09-01,17850.00,850.00,true
+ACC-0220,Client 0220 Ltd,Asset Management,Mid-Market,AMER,Brazil,rep_02,2025-11-28,SUB-0220,Professional,2025-12-25,,active,2026-01-01,2026-09-01,11820.00,1740.00,true
+ACC-0221,Client 0221 Ltd,Fintech,Mid-Market,AMER,United States,rep_10,2024-11-12,SUB-0221,Starter,2024-12-06,,active,2025-01-01,2026-09-01,46825.00,2725.00,true
+ACC-0222,Client 0222 Ltd,Insurance,Mid-Market,EMEA,Germany,rep_12,2024-04-02,SUB-0222,Enterprise,2024-04-17,,active,2024-05-01,2026-09-01,162690.00,5610.00,true
+ACC-0223,Client 0223 Ltd,Exchanges,SMB,EMEA,Germany,rep_09,2024-05-15,SUB-0223,Starter,2024-05-17,,active,2024-06-01,2026-09-01,6400.00,275.00,true
+ACC-0224,Client 0224 Ltd,Asset Management,Enterprise,AMER,Canada,rep_08,2026-04-30,SUB-0224,Enterprise,2026-05-02,,active,2026-06-01,2026-09-01,84711.00,20196.00,true
+ACC-0225,Client 0225 Ltd,Banking,Mid-Market,EMEA,Germany,rep_02,2024-12-12,SUB-0225,Professional,2024-12-13,,active,2025-01-01,2026-09-01,117600.00,6660.00,true
+ACC-0226,Client 0226 Ltd,Corporate Treasury,Mid-Market,APAC,Australia,rep_11,2024-08-19,SUB-0226,Professional,2024-08-24,,active,2024-09-01,2026-09-01,93600.00,3960.00,true
+ACC-0227,Client 0227 Ltd,Exchanges,Enterprise,EMEA,Germany,rep_02,2026-04-03,SUB-0227,Enterprise,2026-04-19,,active,2026-05-01,2026-09-01,190740.00,38148.00,true
+ACC-0228,Client 0228 Ltd,Banking,SMB,EMEA,Germany,rep_06,2025-07-03,SUB-0228,Starter,2025-07-11,,active,2025-08-01,2026-09-01,5600.00,400.00,true
+ACC-0229,Client 0229 Ltd,Exchanges,Mid-Market,AMER,Canada,rep_11,2024-09-25,SUB-0229,Professional,2024-09-28,,active,2024-10-01,2026-09-01,131100.00,8040.00,true
+ACC-0230,Client 0230 Ltd,Fintech,SMB,EMEA,United Kingdom,rep_10,2024-08-27,SUB-0230,Starter,2024-09-12,,active,2024-10-01,2026-09-01,10650.00,500.00,true
+ACC-0231,Client 0231 Ltd,Asset Management,SMB,AMER,Brazil,rep_02,2025-09-16,SUB-0231,Starter,2025-09-19,,active,2025-10-01,2026-09-01,2100.00,175.00,true
+ACC-0232,Client 0232 Ltd,Corporate Treasury,Mid-Market,AMER,Canada,rep_11,2026-07-20,SUB-0232,Professional,2026-07-28,,active,2026-08-01,2026-09-01,7920.00,3960.00,true
+ACC-0233,Client 0233 Ltd,Banking,SMB,EMEA,Germany,rep_08,2024-02-16,SUB-0233,Starter,2024-03-13,,active,2024-04-01,2026-09-01,5250.00,175.00,true
+ACC-0234,Client 0234 Ltd,Exchanges,SMB,APAC,India,rep_07,2026-06-27,SUB-0234,Starter,2026-06-30,,active,2026-07-01,2026-09-01,1275.00,425.00,true
+ACC-0235,Client 0235 Ltd,Corporate Treasury,SMB,EMEA,UAE,rep_07,2026-01-30,SUB-0235,Starter,2026-02-24,,active,2026-03-01,2026-09-01,2675.00,425.00,true
+ACC-0236,Client 0236 Ltd,Fintech,Mid-Market,AMER,Brazil,rep_02,2024-06-07,SUB-0236,Professional,2024-06-16,,active,2024-07-01,2026-09-01,48300.00,2100.00,true
+ACC-0237,Client 0237 Ltd,Banking,Mid-Market,EMEA,UAE,rep_06,2024-10-13,SUB-0237,Professional,2024-10-19,2025-11-01,cancelled,2024-11-01,2025-10-01,79920.00,0.00,false
+ACC-0238,Client 0238 Ltd,Insurance,SMB,APAC,India,rep_11,2024-08-29,SUB-0238,Professional,2024-09-02,,active,2024-10-01,2026-09-01,20880.00,840.00,true
+ACC-0239,Client 0239 Ltd,Insurance,Mid-Market,EMEA,United Kingdom,rep_07,2025-10-22,SUB-0239,Starter,2025-11-12,,active,2025-12-01,2026-09-01,16750.00,1675.00,true
+ACC-0240,Client 0240 Ltd,Fintech,SMB,EMEA,United Kingdom,rep_11,2024-05-05,SUB-0240,Starter,2024-06-02,,active,2024-07-01,2026-09-01,8175.00,300.00,true
+ACC-0241,Client 0241 Ltd,Banking,Mid-Market,APAC,India,rep_06,2025-09-03,SUB-0241,Professional,2025-10-02,,active,2025-11-01,2026-09-01,18480.00,1680.00,true
+ACC-0242,Client 0242 Ltd,Exchanges,Enterprise,APAC,India,rep_02,2026-03-16,SUB-0242,Enterprise,2026-03-31,,active,2026-04-01,2026-09-01,195789.00,32631.50,true
+ACC-0243,Client 0243 Ltd,Asset Management,SMB,AMER,Canada,rep_03,2024-08-09,SUB-0243,Enterprise,2024-08-22,2025-04-01,cancelled,2024-09-01,2025-03-01,14630.00,0.00,false
+ACC-0244,Client 0244 Ltd,Asset Management,SMB,AMER,United States,rep_09,2026-05-29,SUB-0244,Starter,2026-06-04,,active,2026-07-01,2026-09-01,225.00,75.00,true
+ACC-0245,Client 0245 Ltd,Corporate Treasury,Mid-Market,EMEA,United Kingdom,rep_03,2024-04-22,SUB-0245,Professional,2024-04-26,2024-12-01,cancelled,2024-05-01,2024-11-01,30240.00,0.00,false
+ACC-0246,Client 0246 Ltd,Asset Management,SMB,APAC,Australia,rep_06,2026-03-18,SUB-0246,Starter,2026-03-28,,active,2026-04-01,2026-09-01,500.00,125.00,true
+ACC-0247,Client 0247 Ltd,Asset Management,SMB,APAC,Australia,rep_07,2024-02-23,SUB-0247,Starter,2024-03-06,2024-08-01,cancelled,2024-04-01,2024-07-01,400.00,0.00,false
+ACC-0248,Client 0248 Ltd,Fintech,SMB,AMER,Canada,rep_06,2024-03-06,SUB-0248,Starter,2024-03-14,2026-03-01,cancelled,2024-04-01,2026-02-01,4350.00,0.00,false
+ACC-0249,Client 0249 Ltd,Exchanges,Mid-Market,AMER,United States,rep_10,2025-04-07,SUB-0249,Professional,2025-04-11,,active,2025-05-01,2026-09-01,116160.00,7500.00,true
+ACC-0250,Client 0250 Ltd,Corporate Treasury,Mid-Market,APAC,Australia,rep_05,2026-07-19,SUB-0250,Professional,2026-07-29,,active,2026-08-01,2026-09-01,14400.00,7200.00,true
+ACC-0251,Client 0251 Ltd,Banking,Mid-Market,EMEA,Germany,rep_07,2024-02-01,SUB-0251,Professional,2024-02-20,2025-06-01,cancelled,2024-03-01,2025-05-01,55020.00,0.00,false
+ACC-0252,Client 0252 Ltd,Corporate Treasury,Mid-Market,EMEA,Germany,rep_02,2025-05-17,SUB-0252,Professional,2025-05-26,,active,2025-06-01,2026-09-01,54480.00,3780.00,true
+ACC-0253,Client 0253 Ltd,Banking,SMB,APAC,India,rep_05,2024-05-31,SUB-0253,Starter,2024-06-17,,active,2024-07-01,2026-09-01,5975.00,325.00,true
+ACC-0254,Client 0254 Ltd,Corporate Treasury,Mid-Market,AMER,Canada,rep_07,2025-07-15,SUB-0254,Professional,2025-07-29,,active,2025-08-01,2026-09-01,57960.00,4140.00,true
+ACC-0255,Client 0255 Ltd,Exchanges,Mid-Market,AMER,Brazil,rep_07,2025-04-09,SUB-0255,Enterprise,2025-04-16,,active,2025-05-01,2026-09-01,79200.00,5170.00,true
+ACC-0256,Client 0256 Ltd,Corporate Treasury,Mid-Market,APAC,Australia,rep_09,2024-04-27,SUB-0256,Professional,2024-05-21,,active,2024-06-01,2026-09-01,73800.00,3420.00,true
+ACC-0257,Client 0257 Ltd,Fintech,Enterprise,AMER,United States,rep_07,2025-03-16,SUB-0257,Enterprise,2025-04-06,,active,2025-05-01,2026-09-01,898254.50,54136.50,true
+ACC-0258,Client 0258 Ltd,Fintech,Mid-Market,EMEA,UAE,rep_02,2025-02-12,SUB-0258,Professional,2025-02-25,,active,2025-03-01,2026-09-01,50580.00,2520.00,true
+ACC-0259,Client 0259 Ltd,Insurance,SMB,EMEA,Germany,rep_03,2025-11-12,SUB-0259,Starter,2025-12-05,2026-03-01,cancelled,2026-01-01,2026-02-01,400.00,0.00,false
+ACC-0260,Client 0260 Ltd,Banking,Enterprise,AMER,United States,rep_02,2024-03-09,SUB-0260,Enterprise,2024-03-19,,active,2024-04-01,2026-09-01,1645506.50,56006.50,true
+ACC-0261,Client 0261 Ltd,Insurance,SMB,EMEA,United Kingdom,rep_09,2026-01-26,SUB-0261,Starter,2026-02-16,,active,2026-03-01,2026-09-01,1925.00,275.00,true
+ACC-0262,Client 0262 Ltd,Exchanges,Mid-Market,APAC,Singapore,rep_11,2025-07-29,SUB-0262,Professional,2025-08-10,,active,2025-09-01,2026-09-01,63480.00,4260.00,true
+ACC-0263,Client 0263 Ltd,Corporate Treasury,SMB,APAC,Singapore,rep_12,2026-06-13,SUB-0263,Starter,2026-07-06,,active,2026-08-01,2026-09-01,650.00,325.00,true
+ACC-0264,Client 0264 Ltd,Insurance,Enterprise,APAC,Singapore,rep_02,2025-09-06,SUB-0264,Enterprise,2025-09-13,,active,2025-10-01,2026-09-01,451044.00,37587.00,true
+ACC-0265,Client 0265 Ltd,Corporate Treasury,Mid-Market,AMER,Canada,rep_04,2024-06-07,SUB-0265,Professional,2024-06-13,,active,2024-07-01,2026-09-01,140280.00,4560.00,true
+ACC-0266,Client 0266 Ltd,Insurance,SMB,APAC,India,rep_05,2025-07-23,SUB-0266,Starter,2025-08-16,2025-11-01,cancelled,2025-09-01,2025-10-01,400.00,0.00,false
+ACC-0267,Client 0267 Ltd,Exchanges,SMB,AMER,Brazil,rep_10,2025-03-15,SUB-0267,Starter,2025-03-31,,active,2025-04-01,2026-09-01,3600.00,200.00,true
+ACC-0268,Client 0268 Ltd,Exchanges,Mid-Market,AMER,Brazil,rep_12,2024-01-27,SUB-0268,Professional,2024-02-19,2025-02-01,cancelled,2024-03-01,2025-01-01,62700.00,0.00,false
+ACC-0269,Client 0269 Ltd,Corporate Treasury,SMB,EMEA,Germany,rep_06,2024-10-06,SUB-0269,Enterprise,2024-10-23,,active,2024-11-01,2026-09-01,18700.00,880.00,true
+ACC-0270,Client 0270 Ltd,Asset Management,SMB,EMEA,UAE,rep_11,2026-06-09,SUB-0270,Starter,2026-07-03,,active,2026-08-01,2026-09-01,550.00,275.00,true
+ACC-0271,Client 0271 Ltd,Corporate Treasury,SMB,EMEA,United Kingdom,rep_02,2026-01-28,SUB-0271,Starter,2026-02-09,,active,2026-03-01,2026-09-01,3150.00,450.00,true
+ACC-0272,Client 0272 Ltd,Fintech,Mid-Market,AMER,Canada,rep_06,2025-01-20,SUB-0272,Professional,2025-02-18,2025-11-01,cancelled,2025-03-01,2025-10-01,13440.00,0.00,false
+ACC-0273,Client 0273 Ltd,Insurance,SMB,APAC,Australia,rep_10,2026-01-08,SUB-0273,Starter,2026-02-05,,active,2026-03-01,2026-09-01,3500.00,500.00,true
+ACC-0274,Client 0274 Ltd,Asset Management,Enterprise,APAC,Australia,rep_01,2024-06-08,SUB-0274,Enterprise,2024-07-03,,active,2024-08-01,2026-09-01,1517224.50,78633.50,true
+ACC-0275,Client 0275 Ltd,Corporate Treasury,SMB,AMER,Canada,rep_08,2025-03-29,SUB-0275,Starter,2025-04-08,,active,2025-05-01,2026-09-01,8625.00,550.00,true
+ACC-0276,Client 0276 Ltd,Asset Management,SMB,AMER,Brazil,rep_02,2024-10-06,SUB-0276,Starter,2024-10-06,2025-10-01,cancelled,2024-11-01,2025-09-01,2750.00,0.00,false
+ACC-0277,Client 0277 Ltd,Corporate Treasury,SMB,EMEA,UAE,rep_10,2024-10-17,SUB-0277,Starter,2024-11-09,,active,2024-12-01,2026-09-01,4700.00,225.00,true
+ACC-0278,Client 0278 Ltd,Banking,Mid-Market,EMEA,United Kingdom,rep_07,2024-11-11,SUB-0278,Professional,2024-11-25,,active,2024-12-01,2026-09-01,116040.00,5220.00,true
+ACC-0279,Client 0279 Ltd,Insurance,SMB,AMER,United States,rep_03,2024-07-28,SUB-0279,Starter,2024-08-24,2025-07-01,cancelled,2024-09-01,2025-06-01,5000.00,0.00,false
+ACC-0280,Client 0280 Ltd,Banking,SMB,EMEA,Germany,rep_12,2024-05-02,SUB-0280,Starter,2024-05-06,,active,2024-06-01,2026-09-01,6300.00,225.00,true
+ACC-0281,Client 0281 Ltd,Exchanges,SMB,EMEA,UAE,rep_04,2025-01-24,SUB-0281,Starter,2025-02-17,2025-07-01,cancelled,2025-03-01,2025-06-01,300.00,0.00,false
+ACC-0282,Client 0282 Ltd,Insurance,Mid-Market,AMER,United States,rep_07,2025-11-15,SUB-0282,Professional,2025-11-27,,active,2025-12-01,2026-09-01,31020.00,4020.00,true
+ACC-0283,Client 0283 Ltd,Fintech,SMB,AMER,United States,rep_06,2024-01-20,SUB-0283,Starter,2024-01-20,,active,2024-02-01,2026-09-01,11225.00,325.00,true
+ACC-0284,Client 0284 Ltd,Corporate Treasury,SMB,AMER,Brazil,rep_07,2025-02-18,SUB-0284,Starter,2025-02-18,,active,2025-03-01,2026-09-01,4750.00,250.00,true
+ACC-0285,Client 0285 Ltd,Insurance,SMB,EMEA,United Kingdom,rep_10,2024-01-22,SUB-0285,Starter,2024-01-29,2024-10-01,cancelled,2024-02-01,2024-09-01,3400.00,0.00,false
+ACC-0286,Client 0286 Ltd,Insurance,Mid-Market,EMEA,United Kingdom,rep_07,2026-07-30,SUB-0286,Professional,2026-08-21,,active,2026-09-01,2026-09-01,1380.00,1380.00,true
+ACC-0287,Client 0287 Ltd,Fintech,SMB,APAC,Australia,rep_02,2025-08-26,SUB-0287,Enterprise,2025-09-20,,active,2025-10-01,2026-09-01,17160.00,1430.00,true
+ACC-0288,Client 0288 Ltd,Insurance,Enterprise,EMEA,United Kingdom,rep_06,2026-02-02,SUB-0288,Enterprise,2026-02-02,,active,2026-03-01,2026-09-01,92939.00,13277.00,true
+ACC-0289,Client 0289 Ltd,Banking,SMB,APAC,Australia,rep_09,2025-10-10,SUB-0289,Starter,2025-10-11,,active,2025-11-01,2026-09-01,1100.00,100.00,true
+ACC-0290,Client 0290 Ltd,Insurance,Enterprise,APAC,Australia,rep_11,2024-12-23,SUB-0290,Professional,2024-12-30,,active,2025-01-01,2026-09-01,483021.00,23001.00,true
+ACC-0291,Client 0291 Ltd,Insurance,SMB,APAC,India,rep_03,2024-05-29,SUB-0291,Starter,2024-06-07,,active,2024-07-01,2026-09-01,2700.00,100.00,true
+ACC-0292,Client 0292 Ltd,Corporate Treasury,SMB,AMER,United States,rep_03,2026-02-16,SUB-0292,Starter,2026-02-16,,active,2026-03-01,2026-09-01,3150.00,450.00,true
+ACC-0293,Client 0293 Ltd,Exchanges,SMB,AMER,Brazil,rep_08,2026-02-11,SUB-0293,Starter,2026-02-21,,active,2026-03-01,2026-09-01,450.00,50.00,true
+ACC-0294,Client 0294 Ltd,Corporate Treasury,Enterprise,AMER,Brazil,rep_10,2025-08-01,SUB-0294,Enterprise,2025-08-24,2026-04-01,cancelled,2025-09-01,2026-03-01,99203.50,0.00,false
+ACC-0295,Client 0295 Ltd,Insurance,Enterprise,EMEA,United Kingdom,rep_08,2025-10-04,SUB-0295,Enterprise,2025-10-28,,active,2025-11-01,2026-09-01,291252.50,23842.50,true
+ACC-0296,Client 0296 Ltd,Insurance,SMB,APAC,Singapore,rep_10,2025-10-08,SUB-0296,Starter,2025-10-28,2026-04-01,cancelled,2025-11-01,2026-03-01,1500.00,0.00,false
+ACC-0297,Client 0297 Ltd,Insurance,SMB,APAC,Singapore,rep_08,2024-03-16,SUB-0297,Starter,2024-04-03,,active,2024-05-01,2026-09-01,16125.00,400.00,true
+ACC-0298,Client 0298 Ltd,Insurance,SMB,APAC,India,rep_11,2026-05-01,SUB-0298,Starter,2026-05-13,,active,2026-06-01,2026-09-01,1900.00,475.00,true
+ACC-0299,Client 0299 Ltd,Fintech,Mid-Market,APAC,Singapore,rep_10,2025-06-03,SUB-0299,Starter,2025-06-15,,active,2025-07-01,2026-09-01,8950.00,550.00,true
+ACC-0300,Client 0300 Ltd,Banking,Enterprise,AMER,Canada,rep_10,2026-01-26,SUB-0300,Enterprise,2026-02-01,2026-09-01,cancelled,2026-03-01,2026-08-01,86394.00,0.00,false
+ACC-0301,Client 0301 Ltd,Fintech,SMB,AMER,Brazil,rep_03,2025-09-11,SUB-0301,Starter,2025-09-24,,active,2025-10-01,2026-09-01,1600.00,125.00,true
+ACC-0302,Client 0302 Ltd,Insurance,SMB,APAC,Australia,rep_02,2026-04-10,SUB-0302,Starter,2026-05-08,,active,2026-06-01,2026-09-01,800.00,200.00,true
+ACC-0303,Client 0303 Ltd,Asset Management,Mid-Market,AMER,Brazil,rep_08,2024-02-10,SUB-0303,Professional,2024-02-17,,active,2024-03-01,2026-09-01,199020.00,6420.00,true
+ACC-0304,Client 0304 Ltd,Asset Management,Mid-Market,EMEA,Germany,rep_06,2025-09-16,SUB-0304,Professional,2025-09-30,,active,2025-10-01,2026-09-01,17280.00,1440.00,true
+ACC-0305,Client 0305 Ltd,Insurance,SMB,EMEA,UAE,rep_10,2026-03-04,SUB-0305,Starter,2026-03-26,,active,2026-04-01,2026-09-01,2100.00,350.00,true
+ACC-0306,Client 0306 Ltd,Insurance,Mid-Market,APAC,India,rep_06,2025-10-24,SUB-0306,Professional,2025-10-28,,active,2025-11-01,2026-09-01,62700.00,5700.00,true
+ACC-0307,Client 0307 Ltd,Insurance,Mid-Market,APAC,Singapore,rep_12,2025-01-30,SUB-0307,Professional,2025-02-20,2025-09-01,cancelled,2025-03-01,2025-08-01,31320.00,0.00,false
+ACC-0308,Client 0308 Ltd,Asset Management,Enterprise,AMER,Canada,rep_02,2025-09-09,SUB-0308,Enterprise,2025-09-12,,active,2025-10-01,2026-09-01,309672.00,25806.00,true
+ACC-0309,Client 0309 Ltd,Insurance,Mid-Market,AMER,Canada,rep_11,2026-07-27,SUB-0309,Professional,2026-08-05,,active,2026-09-01,2026-09-01,6120.00,6120.00,true
+ACC-0310,Client 0310 Ltd,Exchanges,Mid-Market,AMER,Brazil,rep_02,2024-05-12,SUB-0310,Professional,2024-05-31,,active,2024-06-01,2026-09-01,114480.00,4380.00,true
+ACC-0311,Client 0311 Ltd,Insurance,Mid-Market,EMEA,United Kingdom,rep_11,2025-10-20,SUB-0311,Professional,2025-11-17,2026-08-01,cancelled,2025-12-01,2026-07-01,23040.00,0.00,false
+ACC-0312,Client 0312 Ltd,Corporate Treasury,Mid-Market,AMER,Brazil,rep_02,2026-01-26,SUB-0312,Professional,2026-01-27,,active,2026-02-01,2026-09-01,36120.00,4680.00,true
+ACC-0313,Client 0313 Ltd,Insurance,Mid-Market,AMER,United States,rep_06,2025-06-04,SUB-0313,Enterprise,2025-06-27,,active,2025-07-01,2026-09-01,163350.00,10890.00,true
+ACC-0314,Client 0314 Ltd,Insurance,SMB,EMEA,Germany,rep_04,2024-08-07,SUB-0314,Enterprise,2024-08-27,2024-11-01,cancelled,2024-09-01,2024-10-01,3520.00,0.00,false
+ACC-0315,Client 0315 Ltd,Banking,Enterprise,APAC,Singapore,rep_02,2024-06-07,SUB-0315,Enterprise,2024-06-15,2024-10-01,cancelled,2024-07-01,2024-09-01,81345.00,0.00,false
+ACC-0316,Client 0316 Ltd,Corporate Treasury,Mid-Market,AMER,Brazil,rep_01,2026-05-05,SUB-0316,Starter,2026-05-10,,active,2026-06-01,2026-09-01,9300.00,2325.00,true
+ACC-0317,Client 0317 Ltd,Exchanges,SMB,AMER,United States,rep_10,2026-02-23,SUB-0317,Starter,2026-02-27,,active,2026-03-01,2026-09-01,2700.00,350.00,true
+ACC-0318,Client 0318 Ltd,Corporate Treasury,SMB,EMEA,UAE,rep_03,2024-07-04,SUB-0318,Starter,2024-07-15,,active,2024-08-01,2026-09-01,8675.00,325.00,true
+ACC-0319,Client 0319 Ltd,Insurance,SMB,AMER,Brazil,rep_12,2025-02-24,SUB-0319,Starter,2025-03-17,2025-08-01,cancelled,2025-04-01,2025-07-01,1700.00,0.00,false
+ACC-0320,Client 0320 Ltd,Insurance,Enterprise,APAC,Australia,rep_08,2025-09-17,SUB-0320,Enterprise,2025-09-21,,active,2025-10-01,2026-09-01,516120.00,43010.00,true
+ACC-0321,Client 0321 Ltd,Fintech,Mid-Market,APAC,India,rep_06,2024-11-12,SUB-0321,Professional,2024-12-11,2025-09-01,cancelled,2025-01-01,2025-08-01,11040.00,0.00,false
+ACC-0322,Client 0322 Ltd,Fintech,Enterprise,AMER,Canada,rep_07,2025-03-27,SUB-0322,Enterprise,2025-04-05,,active,2025-05-01,2026-09-01,458243.50,22907.50,true
+ACC-0323,Client 0323 Ltd,Asset Management,Mid-Market,AMER,Brazil,rep_03,2024-06-14,SUB-0323,Professional,2024-06-21,,active,2024-07-01,2026-09-01,161700.00,9060.00,true
+ACC-0324,Client 0324 Ltd,Insurance,SMB,EMEA,UAE,rep_02,2025-05-07,SUB-0324,Starter,2025-05-13,,active,2025-06-01,2026-09-01,4000.00,250.00,true
+ACC-0325,Client 0325 Ltd,Banking,Mid-Market,AMER,Canada,rep_02,2026-05-21,SUB-0325,Professional,2026-06-15,,active,2026-07-01,2026-09-01,16020.00,5340.00,true
+ACC-0326,Client 0326 Ltd,Exchanges,SMB,APAC,India,rep_07,2026-07-16,SUB-0326,Professional,2026-08-15,,active,2026-09-01,2026-09-01,360.00,360.00,true
+ACC-0327,Client 0327 Ltd,Fintech,Enterprise,APAC,Singapore,rep_01,2024-08-15,SUB-0327,Enterprise,2024-09-13,,active,2024-10-01,2026-09-01,1270104.00,52921.00,true
+ACC-0328,Client 0328 Ltd,Insurance,SMB,EMEA,United Kingdom,rep_07,2025-05-29,SUB-0328,Enterprise,2025-05-30,,active,2025-06-01,2026-09-01,33000.00,2200.00,true
+ACC-0329,Client 0329 Ltd,Insurance,SMB,APAC,India,rep_12,2024-01-29,SUB-0329,Starter,2024-02-17,2025-06-01,cancelled,2024-03-01,2025-05-01,5250.00,0.00,false
+ACC-0330,Client 0330 Ltd,Asset Management,SMB,AMER,United States,rep_05,2024-05-29,SUB-0330,Starter,2024-06-15,,active,2024-07-01,2026-09-01,8775.00,300.00,true
+ACC-0331,Client 0331 Ltd,Corporate Treasury,Mid-Market,EMEA,Germany,rep_08,2024-05-22,SUB-0331,Professional,2024-06-05,,active,2024-07-01,2026-09-01,97860.00,4080.00,true
+ACC-0332,Client 0332 Ltd,Banking,SMB,AMER,Canada,rep_04,2024-03-22,SUB-0332,Starter,2024-04-04,,active,2024-05-01,2026-09-01,12125.00,625.00,true
+ACC-0333,Client 0333 Ltd,Exchanges,Mid-Market,APAC,Australia,rep_07,2026-01-14,SUB-0333,Professional,2026-01-22,,active,2026-02-01,2026-09-01,30720.00,3840.00,true
+ACC-0334,Client 0334 Ltd,Insurance,Mid-Market,APAC,India,rep_01,2024-08-31,SUB-0334,Professional,2024-09-17,,active,2024-10-01,2026-09-01,166680.00,7980.00,true
+ACC-0335,Client 0335 Ltd,Exchanges,SMB,APAC,Singapore,rep_02,2026-03-23,SUB-0335,Starter,2026-04-01,,active,2026-05-01,2026-09-01,1250.00,250.00,true
+ACC-0336,Client 0336 Ltd,Exchanges,Mid-Market,APAC,Australia,rep_01,2025-05-26,SUB-0336,Professional,2025-05-27,2025-06-01,cancelled,,,0.00,0.00,false
+ACC-0337,Client 0337 Ltd,Corporate Treasury,Mid-Market,AMER,United States,rep_05,2024-09-04,SUB-0337,Professional,2024-09-04,2024-11-01,cancelled,2024-10-01,2024-10-01,6780.00,0.00,false
+ACC-0338,Client 0338 Ltd,Asset Management,SMB,EMEA,UAE,rep_07,2024-12-27,SUB-0338,Starter,2025-01-26,,active,2025-02-01,2026-09-01,4950.00,225.00,true
+ACC-0339,Client 0339 Ltd,Exchanges,Mid-Market,APAC,Singapore,rep_02,2024-03-28,SUB-0339,Professional,2024-04-01,2026-01-01,cancelled,2024-05-01,2025-12-01,125400.00,0.00,false
+ACC-0340,Client 0340 Ltd,Exchanges,Mid-Market,AMER,Brazil,rep_01,2026-03-16,SUB-0340,Professional,2026-03-31,,active,2026-04-01,2026-09-01,33480.00,5580.00,true
+ACC-0341,Client 0341 Ltd,Corporate Treasury,Enterprise,EMEA,Germany,rep_06,2024-02-14,SUB-0341,Enterprise,2024-03-13,,active,2024-04-01,2026-09-01,889465.50,23842.50,true
+ACC-0342,Client 0342 Ltd,Banking,Mid-Market,EMEA,Germany,rep_04,2024-12-31,SUB-0342,Professional,2025-01-11,,active,2025-02-01,2026-09-01,150780.00,6900.00,true
+ACC-0343,Client 0343 Ltd,Exchanges,Mid-Market,AMER,Brazil,rep_06,2024-04-16,SUB-0343,Professional,2024-05-08,2026-03-01,cancelled,2024-06-01,2026-02-01,65640.00,0.00,false
+ACC-0344,Client 0344 Ltd,Insurance,SMB,APAC,Australia,rep_03,2025-07-13,SUB-0344,Starter,2025-08-10,2026-05-01,cancelled,2025-09-01,2026-04-01,2050.00,0.00,false
+ACC-0345,Client 0345 Ltd,Fintech,SMB,AMER,Brazil,rep_03,2025-12-13,SUB-0345,Starter,2025-12-26,2026-08-01,cancelled,2026-01-01,2026-07-01,525.00,0.00,false
+ACC-0346,Client 0346 Ltd,Fintech,SMB,APAC,India,rep_05,2026-03-05,SUB-0346,Starter,2026-03-17,2026-05-01,cancelled,2026-04-01,2026-04-01,375.00,0.00,false
+ACC-0347,Client 0347 Ltd,Banking,SMB,APAC,Singapore,rep_05,2024-07-23,SUB-0347,Starter,2024-08-18,2024-09-01,cancelled,,,0.00,0.00,false
+ACC-0348,Client 0348 Ltd,Exchanges,SMB,AMER,Canada,rep_05,2026-04-14,SUB-0348,Starter,2026-04-26,,active,2026-05-01,2026-09-01,2250.00,450.00,true
+ACC-0349,Client 0349 Ltd,Insurance,Mid-Market,APAC,Singapore,rep_01,2024-07-14,SUB-0349,Professional,2024-07-15,2026-02-01,cancelled,2024-08-01,2026-01-01,28200.00,0.00,false
+ACC-0350,Client 0350 Ltd,Insurance,SMB,AMER,Canada,rep_07,2024-05-07,SUB-0350,Starter,2024-06-06,2025-12-01,cancelled,2024-07-01,2025-11-01,4525.00,0.00,false
+ACC-0351,Client 0351 Ltd,Insurance,SMB,AMER,United States,rep_08,2025-01-30,SUB-0351,Starter,2025-02-18,,active,2025-03-01,2026-09-01,4200.00,300.00,true
+ACC-0352,Client 0352 Ltd,Exchanges,SMB,AMER,Canada,rep_02,2026-03-27,SUB-0352,Starter,2026-04-16,,active,2026-05-01,2026-09-01,625.00,125.00,true
+ACC-0353,Client 0353 Ltd,Exchanges,SMB,AMER,United States,rep_09,2025-03-16,SUB-0353,Starter,2025-04-15,,active,2025-05-01,2026-09-01,5075.00,375.00,true
+ACC-0354,Client 0354 Ltd,Insurance,SMB,EMEA,UAE,rep_05,2024-03-22,SUB-0354,Starter,2024-04-20,,active,2024-05-01,2026-09-01,11600.00,400.00,true
+ACC-0355,Client 0355 Ltd,Fintech,SMB,EMEA,United Kingdom,rep_12,2026-01-04,SUB-0355,Starter,2026-01-30,,active,2026-02-01,2026-09-01,2400.00,300.00,true
+ACC-0356,Client 0356 Ltd,Corporate Treasury,SMB,EMEA,Germany,rep_10,2024-02-13,SUB-0356,Starter,2024-03-12,,active,2024-04-01,2026-09-01,8300.00,400.00,true
+ACC-0357,Client 0357 Ltd,Banking,SMB,EMEA,United Kingdom,rep_11,2026-03-21,SUB-0357,Starter,2026-03-26,,active,2026-04-01,2026-09-01,750.00,125.00,true
+ACC-0358,Client 0358 Ltd,Corporate Treasury,SMB,AMER,Brazil,rep_03,2025-06-09,SUB-0358,Starter,2025-06-13,,active,2025-07-01,2026-09-01,3175.00,200.00,true
+ACC-0359,Client 0359 Ltd,Corporate Treasury,SMB,APAC,Singapore,rep_01,2025-09-14,SUB-0359,Starter,2025-10-10,,active,2025-11-01,2026-09-01,4950.00,450.00,true
+ACC-0360,Client 0360 Ltd,Corporate Treasury,SMB,APAC,Singapore,rep_06,2026-03-08,SUB-0360,Starter,2026-03-27,,active,2026-04-01,2026-09-01,1200.00,200.00,true
+ACC-0361,Client 0361 Ltd,Exchanges,Enterprise,EMEA,United Kingdom,rep_11,2024-02-03,SUB-0361,Enterprise,2024-03-01,,active,2024-04-01,2026-09-01,1567434.00,69003.00,true
+ACC-0362,Client 0362 Ltd,Fintech,Enterprise,EMEA,United Kingdom,rep_10,2025-01-15,SUB-0362,Starter,2025-02-04,,active,2025-03-01,2026-09-01,110818.75,7118.75,true
+ACC-0363,Client 0363 Ltd,Insurance,Mid-Market,APAC,Australia,rep_05,2025-02-11,SUB-0363,Professional,2025-03-01,,active,2025-04-01,2026-09-01,65040.00,4500.00,true
+ACC-0364,Client 0364 Ltd,Corporate Treasury,Enterprise,APAC,India,rep_08,2024-01-27,SUB-0364,Enterprise,2024-02-13,,active,2024-03-01,2026-09-01,1885334.00,90414.50,true
+ACC-0365,Client 0365 Ltd,Banking,SMB,AMER,Canada,rep_05,2025-07-29,SUB-0365,Enterprise,2025-07-31,2026-05-01,cancelled,2025-08-01,2026-04-01,2860.00,0.00,false
+ACC-0366,Client 0366 Ltd,Insurance,SMB,AMER,Brazil,rep_08,2025-09-18,SUB-0366,Professional,2025-10-06,,active,2025-11-01,2026-09-01,2880.00,360.00,true
+ACC-0367,Client 0367 Ltd,Banking,SMB,APAC,Singapore,rep_03,2026-05-23,SUB-0367,Enterprise,2026-06-01,2026-09-01,cancelled,2026-07-01,2026-08-01,1540.00,0.00,false
+ACC-0368,Client 0368 Ltd,Corporate Treasury,SMB,AMER,Canada,rep_11,2024-03-30,SUB-0368,Starter,2024-04-29,,active,2024-05-01,2026-09-01,8125.00,225.00,true
+ACC-0369,Client 0369 Ltd,Exchanges,Mid-Market,EMEA,Germany,rep_05,2025-07-17,SUB-0369,Professional,2025-08-13,2026-05-01,cancelled,2025-09-01,2026-04-01,20640.00,0.00,false
+ACC-0370,Client 0370 Ltd,Corporate Treasury,Mid-Market,APAC,India,rep_06,2025-12-18,SUB-0370,Starter,2025-12-18,,active,2026-01-01,2026-09-01,17775.00,1975.00,true
+ACC-0371,Client 0371 Ltd,Asset Management,SMB,AMER,United States,rep_08,2024-07-24,SUB-0371,Starter,2024-07-26,,active,2024-08-01,2026-09-01,11750.00,500.00,true
+ACC-0372,Client 0372 Ltd,Insurance,SMB,APAC,Singapore,rep_09,2025-08-09,SUB-0372,Starter,2025-08-25,2026-03-01,cancelled,2025-09-01,2026-02-01,1500.00,0.00,false
+ACC-0373,Client 0373 Ltd,Banking,Mid-Market,APAC,Singapore,rep_07,2024-03-29,SUB-0373,Professional,2024-04-03,2025-03-01,cancelled,2024-05-01,2025-02-01,64800.00,0.00,false
+ACC-0374,Client 0374 Ltd,Fintech,Mid-Market,AMER,Canada,rep_10,2025-06-22,SUB-0374,Professional,2025-06-28,,active,2025-07-01,2026-09-01,18000.00,1200.00,true
+ACC-0375,Client 0375 Ltd,Corporate Treasury,SMB,APAC,India,rep_08,2024-11-20,SUB-0375,Professional,2024-11-23,2025-08-01,cancelled,2024-12-01,2025-07-01,7200.00,0.00,false
+ACC-0376,Client 0376 Ltd,Asset Management,Mid-Market,EMEA,UAE,rep_11,2024-12-18,SUB-0376,Professional,2024-12-21,,active,2025-01-01,2026-09-01,104760.00,5760.00,true
+ACC-0377,Client 0377 Ltd,Fintech,SMB,AMER,Brazil,rep_01,2024-05-12,SUB-0377,Starter,2024-05-29,2024-06-01,cancelled,,,0.00,0.00,false
+ACC-0378,Client 0378 Ltd,Asset Management,Mid-Market,APAC,India,rep_06,2024-11-07,SUB-0378,Professional,2024-11-16,,active,2024-12-01,2026-09-01,245820.00,15480.00,true
+ACC-0379,Client 0379 Ltd,Insurance,SMB,AMER,United States,rep_05,2025-06-15,SUB-0379,Starter,2025-06-16,2025-07-01,cancelled,,,0.00,0.00,false
+ACC-0380,Client 0380 Ltd,Insurance,Mid-Market,APAC,India,rep_11,2025-07-18,SUB-0380,Professional,2025-08-10,,active,2025-09-01,2026-09-01,18240.00,1320.00,true
+ACC-0381,Client 0381 Ltd,Exchanges,Mid-Market,EMEA,UAE,rep_03,2024-04-05,SUB-0381,Professional,2024-04-26,,active,2024-05-01,2026-09-01,131220.00,4620.00,true
+ACC-0382,Client 0382 Ltd,Asset Management,Enterprise,AMER,Brazil,rep_10,2024-06-06,SUB-0382,Enterprise,2024-06-15,,active,2024-07-01,2026-09-01,603262.00,19448.00,true
+ACC-0383,Client 0383 Ltd,Exchanges,Enterprise,AMER,United States,rep_01,2024-12-11,SUB-0383,Enterprise,2024-12-30,,active,2025-01-01,2026-09-01,1305166.50,63393.00,true
+ACC-0384,Client 0384 Ltd,Exchanges,SMB,APAC,Singapore,rep_11,2025-10-18,SUB-0384,Starter,2025-10-24,2026-06-01,cancelled,2025-11-01,2026-05-01,1925.00,0.00,false
+ACC-0385,Client 0385 Ltd,Exchanges,Mid-Market,APAC,Australia,rep_01,2025-03-02,SUB-0385,Professional,2025-03-21,,active,2025-04-01,2026-09-01,22800.00,1080.00,true
+ACC-0386,Client 0386 Ltd,Insurance,Enterprise,EMEA,UAE,rep_05,2025-07-12,SUB-0386,Enterprise,2025-08-10,,active,2025-09-01,2026-09-01,184475.50,10565.50,true
+ACC-0387,Client 0387 Ltd,Corporate Treasury,SMB,EMEA,Germany,rep_05,2026-04-06,SUB-0387,Starter,2026-04-11,2026-07-01,cancelled,2026-05-01,2026-06-01,500.00,0.00,false
+ACC-0388,Client 0388 Ltd,Asset Management,SMB,EMEA,Germany,rep_07,2024-03-02,SUB-0388,Starter,2024-03-18,,active,2024-04-01,2026-09-01,9225.00,325.00,true
+ACC-0389,Client 0389 Ltd,Exchanges,SMB,EMEA,United Kingdom,rep_06,2024-12-14,SUB-0389,Starter,2024-12-21,2025-02-01,cancelled,2025-01-01,2025-01-01,475.00,0.00,false
+ACC-0390,Client 0390 Ltd,Insurance,SMB,AMER,Canada,rep_03,2026-05-31,SUB-0390,Enterprise,2026-05-31,,active,2026-06-01,2026-09-01,4840.00,1210.00,true
+ACC-0391,Client 0391 Ltd,Insurance,Mid-Market,EMEA,United Kingdom,rep_08,2024-04-18,SUB-0391,Professional,2024-05-17,2024-09-01,cancelled,2024-06-01,2024-08-01,7380.00,0.00,false
+ACC-0392,Client 0392 Ltd,Asset Management,SMB,APAC,India,rep_01,2024-09-10,SUB-0392,Starter,2024-10-02,,active,2024-11-01,2026-09-01,5775.00,300.00,true
+ACC-0393,Client 0393 Ltd,Exchanges,Enterprise,EMEA,Germany,rep_04,2026-06-03,SUB-0393,Enterprise,2026-06-03,,active,2026-07-01,2026-09-01,148104.00,49368.00,true
+ACC-0394,Client 0394 Ltd,Corporate Treasury,Mid-Market,APAC,Singapore,rep_04,2025-08-14,SUB-0394,Professional,2025-09-01,,active,2025-10-01,2026-09-01,72480.00,7620.00,true
+ACC-0395,Client 0395 Ltd,Fintech,SMB,APAC,Singapore,rep_05,2025-06-11,SUB-0395,Starter,2025-06-20,,active,2025-07-01,2026-09-01,1125.00,75.00,true
+ACC-0396,Client 0396 Ltd,Exchanges,SMB,EMEA,Germany,rep_04,2025-02-06,SUB-0396,Professional,2025-02-18,2026-09-01,cancelled,2025-03-01,2026-08-01,18600.00,0.00,false
+ACC-0397,Client 0397 Ltd,Banking,Mid-Market,APAC,Singapore,rep_08,2024-02-19,SUB-0397,Professional,2024-03-15,,active,2024-04-01,2026-09-01,208920.00,6120.00,true
+ACC-0398,Client 0398 Ltd,Corporate Treasury,Enterprise,AMER,Canada,rep_05,2025-10-31,SUB-0398,Starter,2025-11-20,,active,2025-12-01,2026-09-01,108842.50,11198.75,true
+ACC-0399,Client 0399 Ltd,Fintech,SMB,AMER,United States,rep_05,2024-04-20,SUB-0399,Starter,2024-05-10,,active,2024-06-01,2026-09-01,9550.00,400.00,true
+ACC-0400,Client 0400 Ltd,Insurance,SMB,AMER,United States,rep_07,2025-02-16,SUB-0400,Starter,2025-03-01,2026-09-01,cancelled,2025-04-01,2026-08-01,7225.00,0.00,false
+ACC-0401,Client 0401 Ltd,Insurance,Mid-Market,APAC,Australia,rep_05,2024-07-18,SUB-0401,Professional,2024-07-27,,active,2024-08-01,2026-09-01,161520.00,5160.00,true
+ACC-0402,Client 0402 Ltd,Exchanges,SMB,APAC,Singapore,rep_10,2025-04-06,SUB-0402,Starter,2025-04-17,2026-08-01,cancelled,2025-05-01,2026-07-01,7125.00,0.00,false
+ACC-0403,Client 0403 Ltd,Banking,Mid-Market,AMER,Canada,rep_06,2024-05-11,SUB-0403,Professional,2024-05-22,,active,2024-06-01,2026-09-01,203280.00,7800.00,true
+ACC-0404,Client 0404 Ltd,Asset Management,Mid-Market,EMEA,United Kingdom,rep_10,2025-01-09,SUB-0404,Professional,2025-01-09,,active,2025-02-01,2026-09-01,37200.00,1860.00,true
+ACC-0405,Client 0405 Ltd,Banking,SMB,AMER,United States,rep_03,2024-02-11,SUB-0405,Starter,2024-02-18,,active,2024-03-01,2026-09-01,15050.00,550.00,true
+ACC-0406,Client 0406 Ltd,Exchanges,SMB,AMER,Canada,rep_03,2025-04-30,SUB-0406,Starter,2025-05-04,2026-04-01,cancelled,2025-06-01,2026-03-01,1800.00,0.00,false
+ACC-0407,Client 0407 Ltd,Insurance,Enterprise,AMER,Brazil,rep_06,2024-05-23,SUB-0407,Enterprise,2024-06-13,2026-08-01,cancelled,2024-07-01,2026-07-01,1731246.00,0.00,false
+ACC-0408,Client 0408 Ltd,Corporate Treasury,SMB,APAC,Singapore,rep_10,2025-09-23,SUB-0408,Starter,2025-10-19,2025-11-01,cancelled,,,0.00,0.00,false
+ACC-0409,Client 0409 Ltd,Exchanges,Mid-Market,EMEA,Germany,rep_12,2025-06-05,SUB-0409,Professional,2025-06-16,2026-03-01,cancelled,2025-07-01,2026-02-01,75780.00,0.00,false
+ACC-0410,Client 0410 Ltd,Banking,SMB,AMER,Canada,rep_06,2026-04-15,SUB-0410,Starter,2026-04-17,,active,2026-05-01,2026-09-01,1000.00,200.00,true
+ACC-0411,Client 0411 Ltd,Exchanges,SMB,AMER,Canada,rep_12,2025-03-02,SUB-0411,Starter,2025-03-27,,active,2025-04-01,2026-09-01,8550.00,475.00,true
+ACC-0412,Client 0412 Ltd,Fintech,Mid-Market,AMER,Canada,rep_11,2025-09-03,SUB-0412,Professional,2025-09-07,,active,2025-10-01,2026-09-01,35280.00,2940.00,true
+ACC-0413,Client 0413 Ltd,Banking,Mid-Market,AMER,Brazil,rep_08,2026-01-08,SUB-0413,Professional,2026-01-22,,active,2026-02-01,2026-09-01,12480.00,1560.00,true
+ACC-0414,Client 0414 Ltd,Exchanges,Mid-Market,APAC,Singapore,rep_03,2026-01-08,SUB-0414,Professional,2026-02-03,,active,2026-03-01,2026-09-01,34860.00,4980.00,true
+ACC-0415,Client 0415 Ltd,Corporate Treasury,SMB,AMER,United States,rep_04,2025-08-09,SUB-0415,Starter,2025-08-26,,active,2025-09-01,2026-09-01,3025.00,325.00,true
+ACC-0416,Client 0416 Ltd,Asset Management,SMB,APAC,Singapore,rep_12,2025-03-04,SUB-0416,Starter,2025-03-12,2025-05-01,cancelled,2025-04-01,2025-04-01,200.00,0.00,false
+ACC-0417,Client 0417 Ltd,Exchanges,SMB,APAC,Singapore,rep_12,2026-03-04,SUB-0417,Starter,2026-03-24,,active,2026-04-01,2026-09-01,450.00,75.00,true
+ACC-0418,Client 0418 Ltd,Exchanges,SMB,AMER,United States,rep_09,2024-05-21,SUB-0418,Starter,2024-05-23,,active,2024-06-01,2026-09-01,4000.00,150.00,true
+ACC-0419,Client 0419 Ltd,Exchanges,Enterprise,EMEA,Germany,rep_06,2025-05-04,SUB-0419,Enterprise,2025-05-13,,active,2025-06-01,2026-09-01,210936.00,13183.50,true
+ACC-0420,Client 0420 Ltd,Insurance,SMB,APAC,Australia,rep_06,2025-06-29,SUB-0420,Professional,2025-07-26,,active,2025-08-01,2026-09-01,13260.00,780.00,true

@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: fct_invoices
+    description: One row per valid invoice.
+    columns:
+      - name: invoice_id
+        tests: [unique, not_null]
+      - name: account_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_customers')
+                field: account_id
+
+  - name: fct_mrr_monthly
+    description: MRR revenue bridge per account per month.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: ['account_id', 'month_start']
+    columns:
+      - name: account_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_customers')
+                field: account_id
+      - name: mrr_usd
+        tests: [not_null]
+
+  - name: kpi_revenue_monthly
+    description: Company revenue KPIs per month (MRR, ARR, retention, churn, ARPA). See docs/kpi_definitions.md.
+    columns:
+      - name: month_start
+        tests: [unique, not_null]
+      - name: logo_churn_rate
+        description: Customers churned this month / customers paying last month.
+      - name: net_revenue_retention
+        description: (Starting MRR + expansion - contraction - churn) / starting MRR, monthly.

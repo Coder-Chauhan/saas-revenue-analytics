@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: fct_product_usage_daily
+    description: Product usage per account, feature and day.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: ['account_id', 'feature_id', 'event_date']
+    columns:
+      - name: account_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_customers')
+                field: account_id
+      - name: feature_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_features')
+                field: feature_id
+
+  - name: kpi_product_monthly
+    description: Monthly product engagement KPIs (MAU, DAU/MAU stickiness, active account rate).
+    columns:
+      - name: month_start
+        tests: [unique, not_null]
+
+  - name: fct_feature_adoption_monthly
+    description: Share of active accounts using each feature per month.
+    tests:
+      - unique_combination:
+          arguments:
+            columns: ['month_start', 'feature_id']

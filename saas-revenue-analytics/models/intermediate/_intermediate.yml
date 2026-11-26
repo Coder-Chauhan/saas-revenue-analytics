@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: int_account_mrr_monthly
+    description: MRR per account per month on a continuous month spine (0 when not billed).
+    tests:
+      - unique_combination:
+          arguments:
+            columns: ['account_id', 'month_start']
+  - name: int_mrr_movements
+    description: Account-month MRR with movement classification (revenue bridge).
+    columns:
+      - name: movement_type
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['new', 'expansion', 'contraction', 'churn', 'reactivation', 'retained']

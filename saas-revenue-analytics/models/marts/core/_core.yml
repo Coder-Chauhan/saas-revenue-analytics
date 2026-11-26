@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: dim_date
+    description: Calendar dimension (one row per day, 2024 to 2026). Mark as the date table in Power BI.
+    columns:
+      - name: date_day
+        tests: [unique, not_null]
+
+  - name: dim_customers
+    description: One row per customer account with CRM attributes, subscription and lifetime revenue.
+    columns:
+      - name: account_id
+        description: Primary key.
+        tests: [unique, not_null]
+      - name: lifetime_revenue_usd
+        description: Total billable invoice amount across all months.
+      - name: is_active_customer
+        description: True when the account had MRR in its latest month.
+
+  - name: dim_features
+    columns:
+      - name: feature_id
+        tests: [unique, not_null]

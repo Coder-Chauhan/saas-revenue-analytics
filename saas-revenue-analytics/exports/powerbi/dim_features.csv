@@ -1,0 +1,11 @@
+feature_id,feature_name,feature_area
+F01,Dashboards,Core
+F02,Report Builder,Core
+F03,Data Connectors,Core
+F04,Alerts,Monitoring
+F05,Anomaly Detection,AI
+F06,Natural Language Query,AI
+F07,Scheduled Exports,Automation
+F08,API Access,Automation
+F09,Audit Log,Governance
+F10,Role-Based Access,Governance

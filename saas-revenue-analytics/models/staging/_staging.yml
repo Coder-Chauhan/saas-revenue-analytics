@@ -1,0 +1,68 @@
+version: 2
+
+models:
+  - name: stg_crm__accounts
+    description: Cleaned CRM accounts, one row per account.
+    columns:
+      - name: account_id
+        tests: [unique, not_null]
+      - name: segment
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['SMB', 'Mid-Market', 'Enterprise']
+      - name: region
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['APAC', 'EMEA', 'AMER']
+
+  - name: stg_billing__subscriptions
+    columns:
+      - name: subscription_id
+        tests: [unique, not_null]
+      - name: account_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_crm__accounts')
+                field: account_id
+      - name: subscription_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['active', 'cancelled']
+
+  - name: stg_billing__invoices
+    description: Valid invoices only (USD, non-negative, de-duplicated).
+    columns:
+      - name: invoice_id
+        tests: [unique, not_null]
+      - name: subscription_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_billing__subscriptions')
+                field: subscription_id
+      - name: invoice_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['paid', 'open', 'void']
+
+  - name: stg_product__events
+    columns:
+      - name: event_id
+        tests: [unique, not_null]
+      - name: feature_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_product__features')
+                field: feature_id
+
+  - name: stg_product__features
+    columns:
+      - name: feature_id
+        tests: [unique, not_null]

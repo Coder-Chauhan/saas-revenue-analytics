@@ -1,0 +1,30 @@
+source_table,record_id,reason
+billing_invoices,INV-000401,duplicate invoice_id
+billing_invoices,INV-000201,invalid currency code: XXX
+billing_invoices,INV-000301,negative amount
+product_events,EV-0109733,orphan event: unknown account ACC-9999
+product_events,EV-0109734,orphan event: unknown account ACC-9999
+product_events,EV-0109735,orphan event: unknown account ACC-9999
+product_events,EV-0109736,orphan event: unknown account ACC-9999
+product_events,EV-0109737,orphan event: unknown account ACC-9999
+product_events,EV-0109738,orphan event: unknown account ACC-9999
+product_events,EV-0109739,orphan event: unknown account ACC-9999
+product_events,EV-0109740,orphan event: unknown account ACC-9999
+product_events,EV-0109741,orphan event: unknown account ACC-9999
+product_events,EV-0109742,orphan event: unknown account ACC-9999
+product_events,EV-0109743,orphan event: unknown account ACC-9999
+product_events,EV-0109744,orphan event: unknown account ACC-9999
+product_events,EV-0109745,orphan event: unknown account ACC-9999
+product_events,EV-0109746,orphan event: unknown account ACC-9999
+product_events,EV-0109747,orphan event: unknown account ACC-9999
+product_events,EV-0109748,orphan event: unknown account ACC-9999
+product_events,EV-0109749,orphan event: unknown account ACC-9999
+product_events,EV-0109750,orphan event: unknown account ACC-9999
+product_events,EV-0109751,orphan event: unknown account ACC-9999
+product_events,EV-0109752,orphan event: unknown account ACC-9999
+product_events,EV-0109753,orphan event: unknown account ACC-9999
+product_events,EV-0109754,orphan event: unknown account ACC-9999
+product_events,EV-0109755,orphan event: unknown account ACC-9999
+product_events,EV-0109756,orphan event: unknown account ACC-9999
+product_events,EV-0109757,orphan event: unknown account ACC-9999
+crm_accounts,ACC-0011,duplicate account row
